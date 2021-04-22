@@ -1,17 +1,38 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+
+
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+
+import Navigation from './components/NavBar';
+import Frontpage from './pages/Frontpage';
+import Portfolio from './pages/Portfolio';
+import Resume from './pages/Resume';
+import Gallery from './pages/Gallery';
+import Contact from './pages/Contact';
+
+
+// import Footer from './component/footer';
+
+
+
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+    <Router>
+      <Navigation />
+      <App>
+        <Switch> 
+        <Route path='/' exact component={Frontpage} />
+        <Route path='/portfolio' component={Portfolio} />
+        <Route path='/resume' component={Resume} />
+        <Route path='/gallery' component={Gallery} />
+        <Route path='/contact' component={Contact} />
+        </Switch>
+         {/*<Footer /> */}
+      </App>
+    </Router>,
+    
+  
+    document.getElementById("root")
+  );
