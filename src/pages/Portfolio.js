@@ -75,7 +75,6 @@ useEffect(() => {
                   src={METANOIA}
                   alt="img"
                 />
-                <h3>Reactjs</h3>
                 <p>Coming Soon page for Metanoia</p>
 
                 <a
