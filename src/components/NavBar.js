@@ -9,11 +9,15 @@ function Navigation() {
   const handleClick = () => setClick(!click);
   return (
     <>
-      <nav className="navbar">
-        <div className="nav-container">
-          <ul className={click ? "nav-menu active" : "nav-menu"}>
-            <li className="nav-item">
-              <NavLink
+      <div className="navbar">
+        <nav>
+          <label for="drop" className="toggle toogle-2">
+            Menu
+          </label>
+          <input type="checkbox" id="drop" />
+          <ul className="menu">
+            <li className="active">
+            <NavLink
                 exact
                 to="/"
                 activeClassName="active"
@@ -23,8 +27,8 @@ function Navigation() {
                 homepage
               </NavLink>
             </li>
-            <li className="nav-item">
-              <NavLink
+            <li class="mx-lg-4 mx-md-3 my-md-0 my-2">
+            <NavLink
                 exact
                 to="/portfolio"
                 activeClassName="active"
@@ -34,8 +38,8 @@ function Navigation() {
                 portfolio
               </NavLink>
             </li>
-            <li className="nav-item">
-              <NavLink
+            <li class="ml-lg-4 ml-md-3 my-md-0 my-2">
+            <NavLink
                 exact
                 to="/resume"
                 activeClassName="active"
@@ -45,8 +49,8 @@ function Navigation() {
                 resumé
               </NavLink>
             </li>
-            <li className="nav-item">
-              <NavLink
+            <li class="ml-lg-4 ml-md-3 my-md-0 my-2">
+            <NavLink
                 exact
                 to="/gallery"
                 activeClassName="active"
@@ -56,8 +60,8 @@ function Navigation() {
                 img
               </NavLink>
             </li>
-            <li className="nav-item">
-              <NavLink
+            <li class="ml-lg-4 ml-md-3 my-md-0 my-2">
+            <NavLink
                 exact
                 to="/contact"
                 activeClassName="active"
@@ -68,11 +72,9 @@ function Navigation() {
               </NavLink>
             </li>
           </ul>
-          <div className="nav-icon" onClick={handleClick}>
-            <i className={click ? "fas fa-times" : "fas fa-bars"}></i>
-          </div>
-        </div>
-      </nav>
+        </nav>
+      </div>
+      
     </>
   );
 }
