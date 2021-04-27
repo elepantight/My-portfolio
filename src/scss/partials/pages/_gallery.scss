@@ -4,10 +4,10 @@
 }
 
   .img-card{
-    display: inline-block;
-    
-  
-
+    display: inline;
+    .images{
+      max-width: 500px;
+    }
   }
 
   @media screen and(max-width: 375px) {
@@ -24,6 +24,7 @@
     }
     
   }
+
 
   @media screen and(max-width: 444px) {
     .img-card{
