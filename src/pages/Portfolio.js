@@ -70,7 +70,6 @@ useEffect(() => {
             <div className="content">
               <img className="card-img" src={METANOIA} alt="img" />
               <p>Coming Soon page for Metanoia</p>
-
               <a
                 href="https://github.com/elepantight/coming-soon"
                 target="_blank"

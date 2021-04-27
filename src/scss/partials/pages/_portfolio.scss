@@ -57,7 +57,11 @@
     0% { transform: translate3d(0, -100%, 0); }
     100% { transform: translate3d(0, 0, 0); }
   }
-
+  @media only screen and (min-width: 375px) {
+  .animated-title {
+margin-left: 20px;
+    }
+  }
 
 
   .row-card {
@@ -103,6 +107,8 @@
     margin: 10px;
     overflow: hidden;
   }
+
+
   .container .card::before {
     content: "";
     position: absolute;
@@ -193,4 +199,17 @@
   }
 .btn:hover{
   background-position: right center;
+}
+
+@media screen and (max-width: 375px) {
+  .card{
+    max-width: 320px;
+  }
+  
+}
+@media screen and (max-width: 444px) {
+  .card{
+    width: 400px;
+  }
+  
 }
