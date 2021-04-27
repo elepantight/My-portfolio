@@ -38,13 +38,10 @@
   }
   }
   @media only screen     
-  and (max-device-width : 760px) {
-  .resume-cards{
-      width: 300px;
-      height: 300px;
-      margin-bottom: 120px;
+  and (max-device-width : 375px) {
+    .resume-cards{
     display: inline-block;
-   margin-left: 80px;
+    text-align: center;
    
   }
   }

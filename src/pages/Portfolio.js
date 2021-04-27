@@ -16,7 +16,7 @@ import PORTFOLIO from "./../images/portfolio.jpg";
 import BERGENLODGE from "./../images/bergenlodge.jpg";
 import TRA from "./../images/Tra.PNG";
 import VIVA from "./../images/viva.jpg";
-import METANOIA from './../images/metanoia.PNG';
+import METANOIA from "./../images/metanoia.PNG";
 
 function Portfolio() {
   /*  let logoItem = useRef(null);
@@ -67,37 +67,30 @@ useEffect(() => {
           {" "}
           {/*row */}
           <div className="card">
-              <div className="content">
-                <h2>Metanoia - Coming Soon</h2>
-                <img
-                
-                  className="card-img"
-                  src={METANOIA}
-                  alt="img"
-                />
-                <p>Coming Soon page for Metanoia</p>
+            <div className="content">
+              <img className="card-img" src={METANOIA} alt="img" />
+              <p>Coming Soon page for Metanoia</p>
 
-                <a
-                  href="https://github.com/elepantight/coming-soon"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="btn btn-1"
-                >
-                  Github
-                </a>
-                <a
-                  href="https://metanoi4.netlify.app/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="btn btn-1"
-                >
-                  live
-                </a>
-              </div>
+              <a
+                href="https://github.com/elepantight/coming-soon"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-1"
+              >
+                Github
+              </a>
+              <a
+                href="https://metanoi4.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-1"
+              >
+                live
+              </a>
             </div>
+          </div>
           <div className="card">
             <div className="content">
-              <h2>Game Of Thrones Board Game</h2>
               <img className="card-img" src={GOT} alt="img" />
               <p>JavaScript BoardGame</p>
               <a
@@ -120,7 +113,6 @@ useEffect(() => {
           </div>
           <div className="card">
             <div className="content">
-              <h2>HomeFair Website</h2>
               <img
                 className="card-img"
                 src={HOMEFAIR} // FIGURE OUT WHY src={require("./../images/homefair.jpg")} ISNT WORKING
@@ -149,7 +141,6 @@ useEffect(() => {
           </div>
           <div className="card">
             <div className="content">
-              <h2>Besseggen Arkitekter</h2>
               <img className="card-img" src={BESSEGGEN} alt="img" />
               <p>Webpage for Besseggen. </p>
 
@@ -173,7 +164,6 @@ useEffect(() => {
           </div>
           <div className="card">
             <div className="content">
-              <h2>Sportif Unlimited</h2>
               <img className="card-img" src={SPORTIF} alt="img" />
               <p>Semester Project. Website for Sportif Unlimited</p>
 
@@ -189,7 +179,6 @@ useEffect(() => {
           </div>
           <div className="card">
             <div className="content">
-              <h2>Rick and Morty API</h2>
               <img className="card-img" src={RICKMORTY} alt="img" />
               <p>Semester Project. API fetching character from Rick N' Morty</p>
 
@@ -205,7 +194,6 @@ useEffect(() => {
           </div>
           <div className="card">
             <div className="content">
-              <h2>Game App </h2>
               <img className="card-img" src={GAME} alt="img" />
               <p>Semester Project. Game-API </p>
 
@@ -221,7 +209,6 @@ useEffect(() => {
           </div>
           <div className="card">
             <div className="content">
-              <h2>Prototype Cool Beanz</h2>
               <img className="card-img" src={COOLBEANS} alt="img" />
               <p>Semester Project. Prototype for a cold-brew company.</p>
               <a
@@ -236,7 +223,6 @@ useEffect(() => {
           </div>
           <div className="card">
             <div className="content">
-              <h2>Sportif Unlimited</h2>
               <img className="card-img" src={SPORTIF2} alt="img" />
               <p>Semester Project. Prototype for Sportif Unlimited</p>
 
@@ -252,7 +238,6 @@ useEffect(() => {
           </div>
           <div className="card">
             <div className="content">
-              <h2>Besseggen Arkitekter</h2>
               <img className="card-img" src={BESSEGGEN2} alt="img" />
               <p>Semester Project. Prototype for Besseggen Arkitekter</p>
               <a
@@ -267,7 +252,6 @@ useEffect(() => {
           </div>
           <div className="card">
             <div className="content">
-              <h2>Viva Sativa Movement</h2>
               <img className="card-img" src={VIVA} alt="img" />
               <p>Semester Project. Prototype for Viva Sativa Movement</p>
               <a
@@ -282,7 +266,6 @@ useEffect(() => {
           </div>
           <div className="card">
             <div className="content">
-              <h2>My Portfolio</h2>
               <img className="card-img" src={PORTFOLIO} alt="img" />
               <p>Semester Project. Prototype for my portfolio</p>
               <a
@@ -297,7 +280,6 @@ useEffect(() => {
           </div>
           <div className="card">
             <div className="content">
-              <h2>Bergen Lodge</h2>
               <img className="card-img" src={BERGENLODGE} alt="img" />
               <p>Semester Project. Prototype for hotel agency</p>
               <a
@@ -312,7 +294,6 @@ useEffect(() => {
           </div>
           <div className="card">
             <div className="content">
-              <h2>Trä och Miljö</h2>
               <img className="card-img" src={TRA} alt="img" />
               <p>Prototype</p>
               <a

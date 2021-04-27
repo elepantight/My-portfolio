@@ -7,18 +7,26 @@ import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
 import Typography from "@material-ui/core/Typography";
 
-const useStyles = makeStyles({
+const useStyles = makeStyles( theme => ({
   root: {
     cursor: "pointer",
     width: 200,
     height: 200,
+   
     margin: 10,
+    display: "inline-block",
     backgroundColor: "#243447",
     "&:hover, &.Mui-focusVisible": {
       transition: "0.3s",
       backgroundColor: "#f3f4f4",
+
+      },
+      "@media (max-width: 375px)": {
+        width: 300,
+        height: 200,
     },
   },
+
   title: {
     fontSize: 18,
     fontWeight: 800,
@@ -39,7 +47,7 @@ const useStyles = makeStyles({
     fontSize: 12,
     fontFamily: "Raleway",
   },
-});
+}));
 
 export default function SimpleCard() {
   let logoItem = useRef(null);
