@@ -21,7 +21,7 @@ const useStyles = makeStyles( theme => ({
       backgroundColor: "#f3f4f4",
 
       },
-      "@media (max-width: 414px)": {
+      "@media (max-width: 444px)": {
         width: 300,
         height: 200,
     },
