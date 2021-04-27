@@ -69,7 +69,7 @@ useEffect(() => {
           <div className="card">
             <div className="content">
               <img className="card-img" src={METANOIA} alt="img" />
-              <p>Coming Soon page for Metanoia</p>
+              <p>Coming Soon page Metanoia</p>
               <a
                 href="https://github.com/elepantight/coming-soon"
                 target="_blank"
@@ -91,7 +91,7 @@ useEffect(() => {
           <div className="card">
             <div className="content">
               <img className="card-img" src={GOT} alt="img" />
-              <p>JavaScript BoardGame</p>
+              <p>Game Of Thrones JavaScript BoardGame</p>
               <a
                 href="https://github.com/elepantight/GameOfThronesBoardGame"
                 target="_blank"
@@ -118,7 +118,7 @@ useEffect(() => {
                 alt="img"
               />
 
-              <p>Website made with HTML and CSS</p>
+              <p>Responsive Website HTML/CSS</p>
 
               <a
                 href="https://github.com/elepantight/homefair"
@@ -141,7 +141,7 @@ useEffect(() => {
           <div className="card">
             <div className="content">
               <img className="card-img" src={BESSEGGEN} alt="img" />
-              <p>Webpage for Besseggen. </p>
+              <p>Responsive Website HTML/CSS</p>
 
               <a
                 href="https://github.com/elepantight/Besseggen"
@@ -164,7 +164,7 @@ useEffect(() => {
           <div className="card">
             <div className="content">
               <img className="card-img" src={SPORTIF} alt="img" />
-              <p>Semester Project. Website for Sportif Unlimited</p>
+              <p>Website HTML/CSS</p>
 
               <a
                 href="https://github.com/elepantight/Sportif"
@@ -179,7 +179,7 @@ useEffect(() => {
           <div className="card">
             <div className="content">
               <img className="card-img" src={RICKMORTY} alt="img" />
-              <p>Semester Project. API fetching character from Rick N' Morty</p>
+              <p>React API fetching Rick And Morty</p>
 
               <a
                 href="https://github.com/elepantight/rickmorty"
@@ -194,7 +194,7 @@ useEffect(() => {
           <div className="card">
             <div className="content">
               <img className="card-img" src={GAME} alt="img" />
-              <p>Semester Project. Game-API </p>
+              <p>React API fetching Game App</p>
 
               <a
                 href="https://github.com/elepantight/game-app"
@@ -209,7 +209,7 @@ useEffect(() => {
           <div className="card">
             <div className="content">
               <img className="card-img" src={COOLBEANS} alt="img" />
-              <p>Semester Project. Prototype for a cold-brew company.</p>
+              <p>Prototype for a cold-brew company.</p>
               <a
                 href="https://xd.adobe.com/view/43024c38-6a75-4a4e-6937-ce95fba0cf0d-3533/?fullscreen"
                 target="_blank"
@@ -223,7 +223,7 @@ useEffect(() => {
           <div className="card">
             <div className="content">
               <img className="card-img" src={SPORTIF2} alt="img" />
-              <p>Semester Project. Prototype for Sportif Unlimited</p>
+              <p>Prototype for Sportif Unlimited</p>
 
               <a
                 href="https://xd.adobe.com/view/bbfae16d-d6cb-4f7c-6f20-4760f2325f30-cdcb/?fullscreen"
@@ -238,7 +238,7 @@ useEffect(() => {
           <div className="card">
             <div className="content">
               <img className="card-img" src={BESSEGGEN2} alt="img" />
-              <p>Semester Project. Prototype for Besseggen Arkitekter</p>
+              <p>Prototype for Besseggen Arkitekter</p>
               <a
                 href="https://xd.adobe.com/view/b151078a-3966-4df6-6644-02f7a6c773a2-c760/?fullscreen"
                 target="_blank"
@@ -252,7 +252,7 @@ useEffect(() => {
           <div className="card">
             <div className="content">
               <img className="card-img" src={VIVA} alt="img" />
-              <p>Semester Project. Prototype for Viva Sativa Movement</p>
+              <p>Prototype for Viva Sativa Movement</p>
               <a
                 href="https://xd.adobe.com/view/43024c38-6a75-4a4e-6937-ce95fba0cf0d-3533/grid"
                 target="_blank"
@@ -266,7 +266,7 @@ useEffect(() => {
           <div className="card">
             <div className="content">
               <img className="card-img" src={PORTFOLIO} alt="img" />
-              <p>Semester Project. Prototype for my portfolio</p>
+              <p>Prototype for my portfolio</p>
               <a
                 href="https://xd.adobe.com/view/43024c38-6a75-4a4e-6937-ce95fba0cf0d-3533/grid"
                 target="_blank"
@@ -280,7 +280,7 @@ useEffect(() => {
           <div className="card">
             <div className="content">
               <img className="card-img" src={BERGENLODGE} alt="img" />
-              <p>Semester Project. Prototype for hotel agency</p>
+              <p>Prototype for hotel agency</p>
               <a
                 href="https://xd.adobe.com/view/11fefd2c-93fb-4d0b-5647-53de37d6d793-67cf/screen/1b2680fa-b9ed-41c5-ac4e-617db9e2815e?fullscreen"
                 target="_blank"
@@ -294,7 +294,7 @@ useEffect(() => {
           <div className="card">
             <div className="content">
               <img className="card-img" src={TRA} alt="img" />
-              <p>Prototype</p>
+              <p>Prototype for Trä&Miljö</p>
               <a
                 href="https://xd.adobe.com/view/0fcc3074-a784-4df4-6c3e-f200f80db5f1-79fd/?fullscreen"
                 target="_blank"
