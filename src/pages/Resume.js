@@ -7,7 +7,7 @@ import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
 import Typography from "@material-ui/core/Typography";
 
-const useStyles = makeStyles( theme => ({
+const useStyles = makeStyles((theme) => ({
   root: {
     cursor: "pointer",
     width: 200,
@@ -18,11 +18,10 @@ const useStyles = makeStyles( theme => ({
     "&:hover, &.Mui-focusVisible": {
       transition: "0.3s",
       backgroundColor: "#f3f4f4",
-
-      },
-      "@media (max-width: 444px)": {
-        width: 300,
-        height: 200,
+    },
+    "@media (max-width: 444px)": {
+      width: 370,
+      height: 200,
     },
   },
 
@@ -39,7 +38,7 @@ const useStyles = makeStyles( theme => ({
     display: "flex",
     alignItems: "center",
     marginTop: 15,
-    color: '#141d26',
+    color: "#141d26",
   },
   pos: {
     marginBottom: 12,
@@ -53,20 +52,20 @@ export default function SimpleCard() {
 
   const classes = useStyles();
 
- /* useEffect(() => {
-    console.log(logoItem);
-    TweenMax.to(
-      logoItem,
-      1,
-      {
-        opacity: 1,
-        y: -50,
-        ease: Elastic.easeInOut,
-        stagger: 0.1,
-      },
-      "<0.5"
-    );
-  }, []); */
+  /* useEffect(() => {
+     console.log(logoItem);
+     TweenMax.to(
+       logoItem,
+       1,
+       {
+         opacity: 1,
+         y: -50,
+         ease: Elastic.easeInOut,
+         stagger: 0.1,
+       },
+       "<0.5"
+     );
+   }, []); */
 
   return (
     <div className="resume-container">
@@ -92,9 +91,7 @@ export default function SimpleCard() {
             </Typography>
           </CardContent>
         </Card>
-        <Card
-          className={classes.root}
-        >
+        <Card className={classes.root}>
           <CardContent>
             <Typography className={classes.title} color="#197acf" gutterBottom>
               SUBWAY NORGE
