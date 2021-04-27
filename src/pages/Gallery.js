@@ -12,7 +12,9 @@ import MUMIN from "./../images/mumin.svg";
 import DRAGONFLY from "./../images/dragonfly.svg";
 import GUZZ from "./../images/guzz.svg";
 import FTP from "./../images/ftp.svg";
-import PIE from "./../images/pie.svg";
+import TRIKK from "./../images/trikk.svg";
+import GUNMAN from './../images/gunman.svg'
+import BEACH from './../images/vivaBeach1.1.png'
 
 export default class Portfolio extends Component {
   render() {
@@ -21,22 +23,22 @@ export default class Portfolio extends Component {
         <Scroll showBelow={250} />
 
         <div className="img-card">
-          <img loading="lazy" className="images" src={PIE} alt="img" />
-        </div>
-        <div className="img-card">
           <img loading="lazy" className="images" src={RUBIK} alt="img" />
-        </div>
-        <div className="img-card">
-          <img loading="lazy" className="images" src={GUN} alt="img" />
         </div>
         <div className="img-card">
           <img loading="lazy" className="images" src={SAMURAJ} alt="img" />
         </div>
         <div className="img-card">
+          <img loading="lazy" className="images" src={GUNMAN} alt="img" />
+        </div>
+        <div className="img-card">
+          <img loading="lazy" className="images" src={BEACH} alt="img" />
+        </div>
+        <div className="img-card">
           <img loading="lazy" className="images" src={FTP} alt="img" />
         </div>
         <div className="img-card">
-          <img loading="lazy" className="images" src={PIE} alt="img" />
+          <img loading="lazy" className="images" src={MUMIN} alt="img" />
         </div>
         <div className="img-card">
           <img loading="lazy" className="images" src={BLACKWHITE} alt="img" />
@@ -45,22 +47,22 @@ export default class Portfolio extends Component {
           <img loading="lazy" className="images" src={DUDES} alt="img" />
         </div>
         <div className="img-card">
-          <img loading="lazy" className="images" src={TWOD} alt="img" />
-        </div>
-        <div className="img-card">
           <img loading="lazy" className="images" src={MUMIN} alt="img" />
         </div>
         <div className="img-card">
-          <img className="images" src={DRAGONFLY} alt="img" />
-        </div>
-        <div className="img-card">
-          <img className="images" src={VIVALOGO} alt="img" />
+          <img loading="lazy" className="images" src={DRAGONFLY} alt="img" />
         </div>
         <div className="img-card">
           <img className="images" src={GUZZ} alt="img" />
         </div>
         <div className="img-card">
-          <img loading="lazy" className="images" src={PIE} alt="img" />
+          <img className="images" src={TWOD} alt="img" />
+        </div>
+        <div className="img-card">
+          <img className="images" src={VIVALOGO} alt="img" />
+        </div>
+        <div className="img-card">
+          <img loading="lazy" className="images" src={TRIKK} alt="img" />
         </div>
       </div>
     );

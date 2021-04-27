@@ -3,10 +3,38 @@
     
 }
 
-
   .img-card{
     display: inline-block;
     
   
 
+  }
+
+  @media screen and(max-width: 375px) {
+    .img-card{
+      display: inline;
+      position: relative;
+      left: -12px;
+      justify-content: center;
+      align-items: center;
+      width: 200px;
+    }
+    .images{
+      max-width: 300px;
+    }
+    
+  }
+
+  @media screen and(max-width: 444px) {
+    .img-card{
+      display: inline;
+      position: relative;
+      left: -30px;
+      justify-content: center;
+      align-items: center;
+    }
+    .images{
+      max-width: 400px;
+    }
+    
   }
