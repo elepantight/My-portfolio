@@ -12,7 +12,6 @@ const useStyles = makeStyles( theme => ({
     cursor: "pointer",
     width: 200,
     height: 200,
-   
     margin: 10,
     display: "inline-block",
     backgroundColor: "#243447",

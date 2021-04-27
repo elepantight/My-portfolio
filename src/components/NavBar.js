@@ -11,7 +11,7 @@ function Navigation() {
     <>
       <div className="navbar">
         <nav>
-          <label for="drop" className="toggle toogle-2">
+          <label htmlFor="drop" className="toggle toogle-2">
             Menu
           </label>
           <input type="checkbox" id="drop" />
@@ -27,7 +27,7 @@ function Navigation() {
                 homepage
               </NavLink>
             </li>
-            <li class="mx-lg-4 mx-md-3 my-md-0 my-2">
+            <li className="mx-lg-4 mx-md-3 my-md-0 my-2">
             <NavLink
                 exact
                 to="/portfolio"
@@ -38,7 +38,7 @@ function Navigation() {
                 portfolio
               </NavLink>
             </li>
-            <li class="ml-lg-4 ml-md-3 my-md-0 my-2">
+            <li className="ml-lg-4 ml-md-3 my-md-0 my-2">
             <NavLink
                 exact
                 to="/resume"
@@ -49,7 +49,7 @@ function Navigation() {
                 resumé
               </NavLink>
             </li>
-            <li class="ml-lg-4 ml-md-3 my-md-0 my-2">
+            <li className="ml-lg-4 ml-md-3 my-md-0 my-2">
             <NavLink
                 exact
                 to="/gallery"
@@ -60,7 +60,7 @@ function Navigation() {
                 img
               </NavLink>
             </li>
-            <li class="ml-lg-4 ml-md-3 my-md-0 my-2">
+            <li className="ml-lg-4 ml-md-3 my-md-0 my-2">
             <NavLink
                 exact
                 to="/contact"
