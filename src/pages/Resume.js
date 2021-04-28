@@ -18,6 +18,7 @@ const useStyles = makeStyles((theme) => ({
     "&:hover, &.Mui-focusVisible": {
       transition: "0.3s",
       backgroundColor: "#f3f4f4",
+      width:500,
     },
     "@media (max-width: 444px)": {
       width: 370,
@@ -38,7 +39,7 @@ const useStyles = makeStyles((theme) => ({
     display: "flex",
     alignItems: "center",
     marginTop: 15,
-    color: "#141d26",
+    color: "#11548f",
   },
   pos: {
     marginBottom: 12,
@@ -325,7 +326,7 @@ export default function SimpleCard() {
               variant="body2"
               component="p"
             >
-              SOCIAL SCIENCE AND ECONOMICS
+            BUSINESS ADMINISTRATION & ECONOMICS
             </Typography>
           </CardContent>
         </Card>
