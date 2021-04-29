@@ -53,7 +53,7 @@ useEffect(() => {
         <div className="text-top">
           <div>
             <span>Recent</span>
-            <span>Projects &amp;</span>
+            <span style={{color: "#313639"}}>Projects &amp;</span>
           </div>
         </div>
         <div className="text-bottom">
