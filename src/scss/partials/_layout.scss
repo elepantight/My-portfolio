@@ -1,60 +1,78 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-body{
+body {
   background-color: #141d26;
 }
 
-
 #no-copy {
-    user-select: none;
-  }
-  #no-copy::selection {
-    background: none;
-  }
-  #no-copy::-moz-selection {
-    background: none;
-  }
+  user-select: none;
+}
+#no-copy::selection {
+  background: none;
+}
+#no-copy::-moz-selection {
+  background: none;
+}
 
-.icon-row{
-  
+.icon-row {
   display: inline-block;
   position: relative;
   top: 40em;
-  left: 35em;
+  left: 36em;
+  
 
-  animation: icons 2s cubic-bezier(.17,.67,.84,.21);
-  animation-delay: 2s;
+  opacity: 0;
+  -webkit-animation: fadeIn ease-in 1;
+  -moz-animation: fadeIn ease-in 1;
+  animation: fadeIn ease-in 1;
+
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  animation-duration: 1s;
 }
-.icons{
-    width: 100px;
-    height: 100px;
-  }
-
-  .icon-row {
-    opacity:0;  
-    -webkit-animation:fadeIn ease-in 1; 
-    -moz-animation:fadeIn ease-in 1;
-    animation:fadeIn ease-in 1;
-  
-    -webkit-animation-fill-mode:forwards; 
-    -moz-animation-fill-mode:forwards;
-    animation-fill-mode:forwards;
-  
-    -webkit-animation-duration:1s;
-    -moz-animation-duration:1s;
-    animation-duration:1s;
-  }
-  
-  .icon-row.fade {
+.icon-row.fade {
   -webkit-animation-delay: 4s;
   -moz-animation-delay: 4s;
   animation-delay: 4s;
-  }
+}
+.icons {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+}
 
-  @-webkit-keyframes fadeIn { from { opacity:0; opacity: 1\9; /* IE9 only */ } to { opacity:1; } }
-  @-moz-keyframes fadeIn { from { opacity:0; opacity: 1\9; /* IE9 only */ } to { opacity:1; } }
-  @keyframes fadeIn { from { opacity:0; opacity: 1\9; /* IE9 only */ } to { opacity:1; } }
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+    opacity: 1\9; /* IE9 only */
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadeIn {
+  from {
+    opacity: 0;
+    opacity: 1\9; /* IE9 only */
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    opacity: 1\9; /* IE9 only */
+  }
+  to {
+    opacity: 1;
+  }
+}
