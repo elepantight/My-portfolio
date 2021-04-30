@@ -53,7 +53,7 @@ useEffect(() => {
         <div className="text-top">
           <div>
             <span>Recent</span>
-            <span style={{color: "#313639"}}>Projects &amp;</span>
+            <span>Projects &amp;</span>
           </div>
         </div>
         <div className="text-bottom">
@@ -107,6 +107,36 @@ useEffect(() => {
                 className="btn btn-1"
               >
                 live
+              </a>
+            </div>
+          </div>
+          <div className="card">
+            <div className="content">
+              <img className="card-img" src={RICKMORTY} alt="img" />
+              <p>React API fetching Rick And Morty</p>
+
+              <a
+                href="https://github.com/elepantight/rickmorty"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-1"
+              >
+                Github
+              </a>
+            </div>
+          </div>
+          <div className="card">
+            <div className="content">
+              <img className="card-img" src={GAME} alt="img" />
+              <p>React API fetching Game App</p>
+
+              <a
+                href="https://github.com/elepantight/game-app"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-1"
+              >
+                Github
               </a>
             </div>
           </div>
@@ -176,36 +206,7 @@ useEffect(() => {
               </a>
             </div>
           </div>
-          <div className="card">
-            <div className="content">
-              <img className="card-img" src={RICKMORTY} alt="img" />
-              <p>React API fetching Rick And Morty</p>
 
-              <a
-                href="https://github.com/elepantight/rickmorty"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn btn-1"
-              >
-                Github
-              </a>
-            </div>
-          </div>
-          <div className="card">
-            <div className="content">
-              <img className="card-img" src={GAME} alt="img" />
-              <p>React API fetching Game App</p>
-
-              <a
-                href="https://github.com/elepantight/game-app"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn btn-1"
-              >
-                Github
-              </a>
-            </div>
-          </div>
           <div className="card">
             <div className="content">
               <img className="card-img" src={COOLBEANS} alt="img" />

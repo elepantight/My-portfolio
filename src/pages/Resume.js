@@ -409,7 +409,8 @@ export default function SimpleCard() {
             <div onMouseLeave={() => setIsShown12(false)}>
               {isShown12 && (
                 <p className="info-hover-text">
-                  Profitable Business | Combined With Sustainable Development
+                  Profitable Business | Combined With Sustainable
+                  Development
                 </p>
               )}
               <Typography className={classes.pos} color="textSecondary">

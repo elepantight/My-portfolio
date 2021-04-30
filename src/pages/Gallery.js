@@ -15,6 +15,7 @@ import FTP from "./../images/ftp.svg";
 import TRIKK from "./../images/trikk.svg";
 import GUNMAN from './../images/gunman.svg'
 import BEACH from './../images/vivaBeach1.1.png'
+import DARTH from './../images/2dx3.svg'
 
 export default class Portfolio extends Component {
   render() {
@@ -29,7 +30,7 @@ export default class Portfolio extends Component {
           <img loading="lazy" className="images" src={SAMURAJ} alt="img" />
         </div>
         <div className="img-card">
-          <img loading="lazy" className="images" src={RUBIKGUN} alt="img" />
+          <img loading="lazy" className="images" src={DARTH} alt="img" />
         </div>
         <div className="img-card">
           <img loading="lazy" className="images" src={RUBIK} alt="img" />
