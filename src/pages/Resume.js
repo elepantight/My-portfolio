@@ -16,7 +16,7 @@ const useStyles = makeStyles((theme) => ({
     display: "inline-block",
     backgroundColor: "#243447",
     "&:hover, &.Mui-focusVisible": {
-      transition: "0.3s",
+      transition: "1s",
       backgroundColor: "#f3f4f4",
       width: 500,
     },
@@ -409,8 +409,7 @@ export default function SimpleCard() {
             <div onMouseLeave={() => setIsShown12(false)}>
               {isShown12 && (
                 <p className="info-hover-text">
-                  Profitable Business | Combined With Sustainable
-                  Development
+                  Profitable Business | Combined With Sustainable Development
                 </p>
               )}
               <Typography className={classes.pos} color="textSecondary">

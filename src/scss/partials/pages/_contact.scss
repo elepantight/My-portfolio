@@ -21,7 +21,13 @@
       0% 75%
     );
   }
-  
+  @media only screen 
+  and (min-width : 1824px) {
+    .contact-form{
+      margin-top: 30px;
+      margin-left: 32%;
+  }
+  }
 
   @media only screen     
   and (max-device-width : 724px) {
@@ -30,6 +36,8 @@
 margin-left: 13px;
     }
   }
+
+
   .form {
     width: 100%;
     max-width: 820px;

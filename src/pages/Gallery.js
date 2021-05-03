@@ -30,13 +30,13 @@ export default class Portfolio extends Component {
           <img loading="lazy" className="images" src={SAMURAJ} alt="img" />
         </div>
         <div className="img-card">
-          <img loading="lazy" className="images" src={DARTH} alt="img" />
+          <img loading="lazy" className="images" src={GUNFROG} alt="img" />
         </div>
         <div className="img-card">
           <img loading="lazy" className="images" src={RUBIK} alt="img" />
         </div>
         <div className="img-card">
-          <img loading="lazy" className="images" src={GUNFROG} alt="img" />
+          <img loading="lazy" className="images" src={FTP} alt="img" />
         </div>
         <div className="img-card">
           <img loading="lazy" className="images" src={MUMIN} alt="img" />
@@ -48,13 +48,13 @@ export default class Portfolio extends Component {
           <img loading="lazy" className="images" src={DUDES} alt="img" />
         </div>
         <div className="img-card">
-          <img loading="lazy" className="images" src={FTP} alt="img" />
-        </div>
-        <div className="img-card">
           <img loading="lazy" className="images" src={DRAGONFLY} alt="img" />
         </div>
         <div className="img-card">
           <img loading="lazy" className="images" src={GUZZ} alt="img" />
+        </div>
+        <div className="img-card">
+          <img loading="lazy" className="images" src={DARTH} alt="img" />
         </div>
         <div className="img-card">
           <img loading="lazy" className="images" src={TWOD} alt="img" />
