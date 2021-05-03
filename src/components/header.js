@@ -54,7 +54,7 @@ function Header() {
     </header>
    
           <div className="container-icons">
-          <div className="icon-row fade ">
+          <div className="icon-row fade">
           <a
               href="https://www.instagram.com/vivasativamovement/"
               target="_blank"
@@ -65,7 +65,7 @@ function Header() {
   
             </a>
           </div>
-          <div className="icon-row fade ">
+          <div className="icon-row fade">
           <a
               href="https://github.com/elepantight"
               target="_blank"
