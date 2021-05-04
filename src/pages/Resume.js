@@ -21,7 +21,7 @@ const useStyles = makeStyles((theme) => ({
     },
     "@media (max-width: 444px)":{
     "&:hover, &.Mui-focusVisible": {
-      width: 370,
+      width: 500,
       height: 200,
     },
   },
