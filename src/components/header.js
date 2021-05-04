@@ -37,8 +37,7 @@ function Header() {
           <div className="second_title">
             <div className="block"></div>
             <h4 className="text_info">
-              {" "}
-              &lt;FRONTEND=&#123;LIKES DESIGN&#125;/&gt;{" "}
+              &lt;FRONTEND=&#123;LIKES DESIGN&#125;/&gt;
             </h4>
           </div>
         </div>
