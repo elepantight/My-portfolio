@@ -25,6 +25,7 @@ const useStyles = makeStyles((theme) => ({
     "&:hover, &.Mui-focusVisible": {
       marginLeft: -10,
       width: 300,
+      height: 250,
     },
   },
 },
