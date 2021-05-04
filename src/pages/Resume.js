@@ -1,6 +1,5 @@
-import React, { useRef, useEffect, useState } from "react";
+import React, { useState } from "react";
 
-import { TweenMax, Power1, Power2, Power3, Bounce, Elastic } from "gsap";
 
 import { makeStyles } from "@material-ui/core/styles";
 import Card from "@material-ui/core/Card";
@@ -61,7 +60,6 @@ export default function SimpleCard() {
   const [isShown10, setIsShown10] = useState(false);
   const [isShown11, setIsShown11] = useState(false);
   const [isShown12, setIsShown12] = useState(false);
-  let logoItem = useRef(null);
 
   const classes = useStyles();
 

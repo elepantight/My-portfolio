@@ -87,3 +87,19 @@ body {
     margin-left: -1150px;
   }
 }
+
+
+.backToTop{
+  -webkit-animation-delay: 4s;
+  -moz-animation-delay: 4s;
+  animation-delay: 4s;
+
+  -webkit-animation: fadeIn ease-in .5;
+  -moz-animation: fadeIn ease-in .5;
+  animation: fadeIn ease-in 1;
+
+
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  animation-duration: 1s;
+}

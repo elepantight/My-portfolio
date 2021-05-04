@@ -1,10 +1,12 @@
-import React from "react";
+import React, {useState} from "react";
 import emailjs from "emailjs-com";
 import background from "./../images/background.svg";
+import validator from 'validator';
 
 import TypeWriterEffect from "react-typewriter-effect";
 
 export default function ContactUs() {
+  
   function sendEmail(e) {
     e.preventDefault();
 
@@ -26,6 +28,18 @@ export default function ContactUs() {
     e.target.reset();
   }
 
+  const [emailError, setEmailError] = useState('')
+  const validateEmail = (e) => {
+    var email = e.target.value
+  
+    if (validator.isEmail(email)) {
+      emailError('Valid Email :)')
+    } else {
+      setEmailError('Enter valid Email!')
+    }
+  }
+
+  
   return (<>
 
     <section>
@@ -65,7 +79,8 @@ export default function ContactUs() {
               name="email"
               className="input"
               placeholder="Email"
-            />
+              onChange={(e) => validateEmail(e)} /> <br />
+
             <label htmlFor=""></label>
             <span></span>
           </div>

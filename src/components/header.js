@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from "react";
 
-import { TweenMax, Power1, Power2, Power3, Bounce, Elastic } from "gsap";
+import { TweenMax,Power3} from "gsap";
 
 import INSTA from "./../images/instagram.svg";
 import GIT from "./../images/github.svg";
@@ -14,7 +14,7 @@ function Header() {
       y: -10,
       ease: Power3.easeOut,
     });
-  }, [3000]);
+  }, []);
 
   return (
     <>

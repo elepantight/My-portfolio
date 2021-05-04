@@ -1,7 +1,6 @@
-import React, { useRef, useEffect } from "react";
+import React from "react";
 import Scroll from "./../components/scroll";
 
-import { TweenMax, Power1, Power2, Power3, Bounce, Elastic } from "gsap";
 
 import GOT from "./../images/GOT-start.jpg";
 import HOMEFAIR from "./../images/homefair.jpg";

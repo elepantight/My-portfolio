@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 
-import LOGO from "./../images/logomenu.svg";
 
 function Navigation() {
   const [click, setClick] = useState(false);

@@ -1,7 +1,7 @@
-import React, { Component, lazy, Suspense } from "react";
+import React, {Component} from "react";
 import Scroll from "./../components/scroll";
 
-import RUBIKGUN from "./../images/rubiksgun.svg";
+// import RUBIKGUN from "./../images/rubiksgun.svg";
 import RUBIK from "./../images/rubikskub.svg";
 import SAMURAJ from "./../images/samuraj.svg";
 import GUNFROG from "./../images/GUNFROG.svg";
@@ -16,6 +16,7 @@ import TRIKK from "./../images/trikk.svg";
 import GUNMAN from './../images/gunman.svg'
 import BEACH from './../images/vivaBeach1.1.png'
 import DARTH from './../images/2dx3.svg'
+// import MASK from './../images/mask.svg';
 
 export default class Portfolio extends Component {
   render() {
