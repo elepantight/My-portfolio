@@ -31,7 +31,7 @@ const useStyles = makeStyles((theme) => ({
       height: 200,
     },
   },
- 
+},
   title: {
     fontSize: 18,
     fontWeight: 800,
