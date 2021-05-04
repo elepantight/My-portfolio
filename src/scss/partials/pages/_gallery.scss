@@ -24,7 +24,7 @@
     display: inline;
     
     .images{
-      max-width: 500px;
+      width: 500px;
       margin: 5px;
     }
   }
@@ -49,12 +49,12 @@
     .img-card{
       display: inline;
       position: relative;
-      left: -11px;
+      left: -30px;
       justify-content: center;
       align-items: center;
     }
     .images{
-      max-width: 350px;
+      max-width: 400px;
     }
     
   }
