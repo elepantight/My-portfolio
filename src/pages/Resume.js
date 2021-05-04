@@ -19,12 +19,13 @@ const useStyles = makeStyles((theme) => ({
       backgroundColor: "#f3f4f4",
       width: 500,
     },
-    "@media (max-width: 444px)": {
+    "@media (max-width: 444px)":{
+    "&:hover, &.Mui-focusVisible": {
       width: 370,
       height: 200,
     },
   },
-
+  },
   title: {
     fontSize: 18,
     fontWeight: 800,

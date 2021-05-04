@@ -1,5 +1,5 @@
 .img-column{
-    margin-left: 13%;
+    margin-left: 10%;
 
     opacity: 0;
     -webkit-animation: fadeIn ease-in 1;
@@ -22,8 +22,10 @@
 
   .img-card{
     display: inline;
+    
     .images{
       max-width: 500px;
+      margin: 5px;
     }
   }
 
