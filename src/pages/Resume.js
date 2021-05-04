@@ -18,9 +18,10 @@ const useStyles = makeStyles((theme) => ({
       transition: "1s",
       backgroundColor: "#f3f4f4",
       width: 500,
-    
+    },
     "@media (max-width: 444px)":{
-        width: 500,
+      "&:hover, &.Mui-focusVisible": {
+        width: 370,
         height: 200,
       },
     },
@@ -30,7 +31,7 @@ const useStyles = makeStyles((theme) => ({
       height: 200,
     },
   },
-  },
+ 
   title: {
     fontSize: 18,
     fontWeight: 800,
