@@ -266,7 +266,6 @@ export default function SimpleCard() {
               {isShown7 && (
                 <p className="info-hover-text">
                   Troubleshooting Methodology | Evaluation of IT Products
-                  Support Methods.
                 </p>
               )}
               <Typography className={classes.pos} color="textSecondary">
