@@ -277,7 +277,7 @@ export default function SimpleCard() {
                 variant="body2"
                 component="p"
               >
-                ADMINISTRATION OF NETWORK AND SERVER EQUIPMENT
+                ADMINISTRATION OF NETWORK, SERVER EQUIPMENT
               </Typography>
             </div>
           </CardContent>
