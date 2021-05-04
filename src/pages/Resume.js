@@ -18,11 +18,12 @@ const useStyles = makeStyles((theme) => ({
       transition: "1s",
       backgroundColor: "#f3f4f4",
       width: 500,
-    },
+    
     "@media (max-width: 444px)":{
         width: 500,
         height: 200,
       },
+    },
     "@media (max-width: 444px)":{
     "&:hover, &.Mui-focusVisible": {
       width: 370,
