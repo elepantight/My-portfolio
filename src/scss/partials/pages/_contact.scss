@@ -34,9 +34,9 @@
 
 @media screen and(max-width: 444px) {
   .contact-form{
- display: flex;
- justify-content: center;
- align-items:center;
+    height: 900px;
+    width: 400px;
+    margin-left: 13px;
   }
   
 }
@@ -159,7 +159,7 @@ textarea.input {
 @media only screen and (max-device-width: 724px) {
   .btn-contact {
     position: relative;
-    left: -10%;
+    left: -1%;
   }
 }
 .button_text {
