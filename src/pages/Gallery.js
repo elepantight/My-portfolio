@@ -16,7 +16,7 @@ import TRIKK from "./../images/trikk.svg";
 import GUNMAN from './../images/gunman.svg'
 import BEACH from './../images/vivaBeach1.1.png'
 import DARTH from './../images/2dx3.svg'
-// import MASK from './../images/mask.svg';
+import ETH from './../images/ethereum.svg';
 
 export default class Portfolio extends Component {
   render() {
@@ -29,6 +29,9 @@ export default class Portfolio extends Component {
         </div>
         <div className="img-card">
           <img loading="lazy" className="images" src={SAMURAJ} alt="img" />
+        </div>
+        <div className="img-card">
+          <img loading="lazy" className="images" src={ETH} alt="img" />
         </div>
         <div className="img-card">
           <img loading="lazy" className="images" src={GUNFROG} alt="img" />

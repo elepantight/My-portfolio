@@ -88,6 +88,22 @@ body {
   }
 }
 
+@media screen and(max-width: 375px) {
+  .icon-row{
+    position: relative;
+    left: -200px;
+  }
+  }
+  
+
+@media screen and(max-width: 444px) {
+  .icon-row{
+    position: relative;
+    top: 600px;
+    left: 120px;
+  }
+  
+}
 
 .backToTop{
   -webkit-animation-delay: 4s;
