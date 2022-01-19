@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+/* import React, { useState } from "react";
 
 
 import { makeStyles } from "@material-ui/core/styles";
@@ -80,7 +80,7 @@ export default function SimpleCard() {
        },
        "<0.5"
      );
-   }, []); */
+   }, []); 
 
   return (
     <div className="resume-container">
@@ -430,3 +430,5 @@ export default function SimpleCard() {
     </div>
   );
 }
+
+*/

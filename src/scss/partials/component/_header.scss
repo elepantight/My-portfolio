@@ -4,7 +4,7 @@
   position: absolute;
   top: 19em;
   left: 25em;
-  background-color: #243447;
+  background-color: #36214a;
   height: 22%;
   width: 4px;
   border-radius: 30px;
@@ -57,7 +57,8 @@
 
 .container_header {
   width: 80%;
-  margin-top: -270px;
+  margin-top: -50px;
+  margin-left: 120px;
   height: 200px;
 
   display: flex;
@@ -87,12 +88,12 @@
         animation: mainBlock 2s cubic-bezier(0.74, 0.06, 0.4, 0.92) forwards;
         display: flex;
         animation-delay: 1.6s;
-        background-color: #c51f5d;
+        background-color: $seaweed;
       }
 
       h1 {
         font-family: $text-header;
-        color: #c51f5d;
+        color: $hunter-green;
         font-size: 72px;
         font-weight: bold;
         -webkit-animation: mainFadeIn 2s forwards;
@@ -115,7 +116,7 @@
           -webkit-animation: load 0.6s cubic-bezier(0.21, 0.85, 0.89, 0.06)
             forwards;
           animation: popIn 0.8s cubic-bezier(0.21, 0.85, 0.89, 0.06) forwards;
-          animation-delay: 3s;
+          animation-delay: 5s;
           margin-left: 5px;
           margin-top: -10px;
           position: absolute;
@@ -134,7 +135,7 @@
     @media screen and (max-width: 444px) {
       h1.text_name  {
         font-size: 46px;
-        margin-left: 90px;
+        margin-left: 10px;
       }
     }
     @media only screen and (min-width: 1824px) {
@@ -160,7 +161,7 @@
       .block {
         width: 0%;
         height: inherit;
-        background: #c3cdd7;
+        background: $celadon;
         position: absolute;
         animation: secBlock 2s cubic-bezier(1, 0.12, 0.11, 0.88) forwards;
         animation-delay: 3s;
@@ -172,7 +173,7 @@
         animation: secFadeIn 2s forwards;
         animation-delay: 4.3s;
         opacity: 0;
-        color: #fff;
+        color: $seaweed;
         font-size: 12px;
         text-transform: uppercase;
         letter-spacing: 5px;
@@ -195,25 +196,7 @@
   }
 }
 
-.square_light,
-.square_shadow {
-  height: 300px;
-  width: 300px;
-  background-color: $bg-color;
-  border-radius: 30px;
-}
-.square_light {
-  position: relative;
-  top: 17vh;
-  left: 100vh;
-  box-shadow: -4px -4px 15px #fff;
-}
-.square_shadow {
-  position: relative;
-  left: 100vh;
-  top: -22vh;
-  box-shadow: 4px 4px 15px $shadow-blue;
-}
+
 
 @keyframes mainBlock {
   0% {
@@ -260,9 +243,9 @@
     height: 0px;
     background-image: linear-gradient(
       to right,
-      #f39fdc 0%,
-      #9ab5e1 51%,
-      #f39fdc 100%
+      #36214a 0%,
+      #3f704d 51%,
+      #36214a 100%
     );
     border: 0px solid #ddd;
     opacity: 0;
@@ -273,9 +256,9 @@
     height: 40px;
     background-image: linear-gradient(
       to right,
-      #f39fdc 0%,
-      #9ab5e1 51%,
-      #f39fdc 100%
+      #36214a 0%,
+      #3f704d 51%,
+      #36214a 100%
     );
     opacity: 1;
     bottom: 5px;
@@ -297,9 +280,9 @@
     height: 7px;
     background-image: linear-gradient(
       to right,
-      #f39fdc 0%,
-      #9ab5e1 51%,
-      #f39fdc 100%
+      #36214a 0%,
+      #3f704d 51%,
+      #36214a 100%
     );
     border: 0px solid #222;
     bottom: 13px;

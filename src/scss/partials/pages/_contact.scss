@@ -1,16 +1,15 @@
 .contact-form {
-  margin-left: 25%;
-  justify-content: center;
-  align-items: center;
-  height: 800px;
-  background-color: #243447;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 600px;
+  background-color: $hunter-green;
   font-family: $text-font;
   font-size: 2em;
-  margin-top: 1vh;
-  position: relative;
+  margin-top: 10vh;
   width: 700px;
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
-  margin-bottom: 10vh;
+  margin-bottom: 5vh;
   clip-path: polygon(
     0% 0%,
     100% 0%,
@@ -28,25 +27,19 @@
   }
 }
 
-
-
-
-
 @media screen and(max-width: 444px) {
-  .contact-form{
+  .contact-form {
     height: 900px;
     width: 400px;
     margin-left: 13px;
   }
-  
 }
 @media screen and(max-width: 375px) {
-  .contact-form{
+  .contact-form {
     height: 900px;
     width: 350px;
     margin-left: 13px;
   }
-  
 }
 
 .form {
@@ -80,7 +73,7 @@ form {
 .input-container {
   position: relative;
   margin: 1rem 0;
-  padding-top: 5vh;
+  padding-top: 1vh;
 }
 
 .input {
@@ -89,7 +82,7 @@ form {
   border-bottom: 2px solid #141d26;
   background: none;
   padding: 0.6rem 1.2rem;
-  color: #c51f5d;
+  color: $celadon;
   font-weight: 500;
   font-size: 0.7em;
   letter-spacing: 0.5px;
@@ -123,50 +116,6 @@ textarea.input {
   transform: translateY(0);
 }
 
-.btn-contact {
-  position: relative;
-  left: 25%;
-  top: 20px;
-  padding: 1rem 1.3rem;
-  background: none;
-  border: none;
-  color: #c51f5d;
-  font-family: $title-font;
-  font-weight: bold;
-  font-size: 2rem;
-  cursor: pointer;
-  border: 2px solid #c51f5d;
-  border-radius: 0.5em;
-  transition: 0.3s;
-  outline: none;
-  text-align: center;
-  width: 10em;
-  margin: 0;
-  text-transform: uppercase;
-
-  &:before {
-    position: absolute;
-    content: "";
-    background: #141d26;
-    height: 100%;
-    width: 100%;
-    top: 0.5em;
-    left: 0.5em;
-    z-index: -1;
-    border-radius: 0.5em;
-  }
-}
-@media only screen and (max-device-width: 724px) {
-  .btn-contact {
-    position: relative;
-    left: -1%;
-  }
-}
-.button_text {
-  text-align: center;
-  font-weight: bold;
-  clip-path: circle(0% at 50% 50%);
-}
 .input-container span {
   position: absolute;
   top: 10;
@@ -217,10 +166,6 @@ textarea.input {
   position: relative;
 }
 
-.text {
-  color: #141d26;
-  margin: 1.5rem 0 2rem 0;
-}
 input,
 textarea {
   background-color: transparent;
@@ -238,5 +183,104 @@ textarea {
   }
   &__hide {
     display: none;
+  }
+}
+
+button {
+  margin-top: 20px;
+  margin-left: 20%;
+}
+button,
+button::after {
+  cursor: pointer;
+  width: 380px;
+  height: 86px;
+  font-size: 36px;
+  font-family: $text-header-two;
+  background: linear-gradient(45deg, transparent 5%, $celadon 5%);
+  border: 0;
+  color: #fff;
+  letter-spacing: 3px;
+  line-height: 88px;
+  box-shadow: 6px 0px 0px $seaweed;
+  outline: transparent;
+  position: relative;
+}
+
+button::after {
+  --slice-0: inset(50% 50% 50% 50%);
+  --slice-1: inset(80% -6px 0 0);
+  --slice-2: inset(50% -6px 30% 0);
+  --slice-3: inset(10% -6px 85% 0);
+  --slice-4: inset(40% -6px 43% 0);
+  --slice-5: inset(80% -6px 5% 0);
+
+  content: "SEND EMAIL";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    45deg,
+    transparent 3%,
+    #00e6f6 3%,
+    #00e6f6 5%,
+    $celadon 5%
+  );
+  text-shadow: -3px -3px 0px #f8f005, 3px 3px 0px #00e6f6;
+  clip-path: var(--slice-0);
+}
+
+button:hover::after {
+  animation: 1s glitch;
+  animation-timing-function: steps(2, end);
+}
+
+@keyframes glitch {
+  0% {
+    clip-path: var(--slice-1);
+    transform: translate(-20px, -10px);
+  }
+  10% {
+    clip-path: var(--slice-3);
+    transform: translate(10px, 10px);
+  }
+  20% {
+    clip-path: var(--slice-1);
+    transform: translate(-10px, 10px);
+  }
+  30% {
+    clip-path: var(--slice-3);
+    transform: translate(0px, 5px);
+  }
+  40% {
+    clip-path: var(--slice-2);
+    transform: translate(-5px, 0px);
+  }
+  50% {
+    clip-path: var(--slice-3);
+    transform: translate(5px, 0px);
+  }
+  60% {
+    clip-path: var(--slice-4);
+    transform: translate(5px, 10px);
+  }
+  70% {
+    clip-path: var(--slice-2);
+    transform: translate(-10px, 10px);
+  }
+  80% {
+    clip-path: var(--slice-5);
+    transform: translate(20px, -10px);
+  }
+  90% {
+    clip-path: var(--slice-1);
+    transform: translate(-10px, 0px);
+  }
+  100% {
+    clip-path: var(--slice-1);
+    transform: translate(0);
   }
 }

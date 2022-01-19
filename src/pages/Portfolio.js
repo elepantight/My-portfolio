@@ -1,7 +1,6 @@
 import React from "react";
 import Scroll from "./../components/scroll";
 
-
 import GOT from "./../images/GOT-start.jpg";
 import HOMEFAIR from "./../images/homefair.jpg";
 import BESSEGGEN from "./../images/beseggen.jpg";
@@ -45,7 +44,6 @@ useEffect(() => {
 }, []) */
 
   return (
-    /* should change row with container and css */
     <div className="header-box">
       <Scroll showBelow={250} />
       <div className="animated-title">
@@ -59,16 +57,19 @@ useEffect(() => {
           <div>Prototypes</div>
         </div>
       </div>
-      <div className="row-card">
+      <div className="container_folio">
         {" "}
-        {/* container */}
-        <div className="container">
+        <div className="row-card">
           {" "}
-          {/*row */}
           <div className="card">
             <div className="content">
               <img className="card-img" src={METANOIA} alt="img" />
-              <p>Coming Soon page Metanoia</p>
+              <p>
+                Coming Soon page Metanoia<br></br>
+                Sign-up page for a clothing brand. <br></br>
+                Page not finished. looks decent<br></br> in desktop but shit in
+                mobile.
+              </p>
               <a
                 href="https://github.com/elepantight/coming-soon"
                 target="_blank"
@@ -147,7 +148,7 @@ useEffect(() => {
                 alt="img"
               />
 
-              <p>Responsive Website HTML/CSS</p>
+              <p>Website HTML/CSS</p>
 
               <a
                 href="https://github.com/elepantight/homefair"
@@ -205,7 +206,6 @@ useEffect(() => {
               </a>
             </div>
           </div>
-
           <div className="card">
             <div className="content">
               <img className="card-img" src={COOLBEANS} alt="img" />

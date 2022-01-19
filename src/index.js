@@ -25,7 +25,7 @@ ReactDOM.render(
         <Switch> 
         <Route path='/' exact component={Frontpage} />
         <Route path='/portfolio' component={Portfolio} />
-        <Route path='/resume' component={Resume} />
+        {/* <Route path='/resume' component={Resume} /> */}
         <Route path='/gallery' component={Gallery} />
         <Route path='/contact' component={Contact} />
         </Switch>

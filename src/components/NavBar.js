@@ -8,7 +8,7 @@ function Navigation() {
   const handleClick = () => setClick(!click);
   return (
     <>
-      <div className="navbar">
+      <div className="topLeftBorders">
         <nav>
           <label htmlFor="drop" className="toggle toogle-2">
             Menu
@@ -26,7 +26,7 @@ function Navigation() {
                 homepage
               </NavLink>
             </li>
-            <li className="mx-lg-4 mx-md-3 my-md-0 my-2">
+            <li className="">
             <NavLink
                 exact
                 to="/portfolio"

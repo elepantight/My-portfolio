@@ -8,8 +8,9 @@
 
 /* Giving a background-color to the nav container. */
 nav {
-  margin: 0;
-  padding: 0;
+  display: inline-block;
+  justify-content: center;
+  margin-left: 22%;
 }
 
 /* Since we'll have the "ul li" "float:left"
@@ -24,7 +25,7 @@ nav:after {
 /* Removing padding, margin and "list-style" from the "ul",
  * and adding "position:reltive" */
 nav ul {
-  float: right;
+  display: inline-block;
   padding: 0;
   margin: 10px;
   list-style: none;
@@ -41,12 +42,13 @@ nav ul li {
 nav a {
   font-family: $second-font;
   text-decoration: none;
-  color: #fff;
+  color: #FFF;
   text-transform: uppercase;
   font-weight: 400;
   font-size: 1.5em;
   letter-spacing: 2px;
   margin: 10px;
+  padding: 5px;
   display: inline-block;
   transition: 0.5s all;
   -webkit-transition: 0.5s all;
@@ -70,14 +72,18 @@ nav ul li ul li:hover {
 
 /* Background color change on Hover */
 
-.menu li.active a,
+
 .menu li a:hover {
-  border-bottom: 1px solid #c51f5d;
-  transition: 0.5s all;
-  -webkit-transition: 0.5s all;
-  -moz-transition: 0.5s all;
-  -o-transition: 0.5s all;
-  -ms-transition: 0.5s all;
+  background-color:$seaweed;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 40%;
+  border-top-right-radius: 16.5px;
+  border-top-left-radius: 12px;
+  transition: .1s all;
+  -webkit-transition:  1s all;
+  -moz-transition:  1s all;
+  -o-transition: 1s all;
+  -ms-transition:  1s all;
 }
 
 
@@ -87,13 +93,14 @@ nav ul li ul li:hover {
   nav a {
     font-size: 14px;
     
-    
   }
 }
 
 @media all and (max-width: 736px) {
   nav {
     margin: 0;
+    
+    float: right;
     
   }
 
@@ -108,19 +115,19 @@ nav ul li ul li:hover {
   .toggle.toogle-2 {
     margin-top: 25px;
     margin-right: 15px;
+    margin-left: 15px;
     display: block;
     padding: 10px 20px;
     font-size: 1.2em;
     text-decoration: none;
     border: none;
-    float: right;
     font-family: $text-header-two;
  
-    color: #fff;
+    color: $aganthus-green;
     border-radius: 4px;
     letter-spacing: 1px;
     cursor: pointer;
-    background: $dark-pink;
+    background: $seaweed;
     transition: 0.5s all;
     -webkit-transition: 0.5s all;
     -moz-transition: 0.5s all;
@@ -136,9 +143,9 @@ nav ul li ul li:hover {
     font-size: 14px;
     cursor: pointer;
     letter-spacing: 1px;
-    color: $dark-pink;
+    color: $seaweed;
     font-weight: 500;
-    transition: 0.5s all;
+    transition: 1s all;
     -webkit-transition: 0.5s all;
     -moz-transition: 0.5s all;
     -o-transition: 0.5s all;
@@ -148,19 +155,18 @@ nav ul li ul li:hover {
   /* Display Dropdown when clicked on Parent Lable */
   [id^="drop"]:checked + ul {
     display: block;
-    background: $dark-blue;
+    background: $hunter-green;
     padding: 25px 0;
-    text-align: center;
-    width: 100%;
     z-index: 1;
     
   }
 
   /* Change menu item's width to 100% */
   nav ul li {
-    display: block;
     width: 100%;
-    padding: 5px 0;
+    padding: 5px ;
+    text-align: center;
+    
     
   }
 
@@ -175,7 +181,7 @@ nav ul li ul li:hover {
 
   nav a:hover,
   nav ul ul ul a {
-    background-color: transparent;
+    background-color: black;
   }
 
   nav ul li ul li .toggle,
@@ -200,6 +206,7 @@ nav ul li ul li:hover {
 
   nav ul ul ul li {
     position: static;
+    width: auto;
     /* has to be the same number as the "width" of "nav ul ul li" */
   }
 
@@ -212,5 +219,7 @@ nav ul li ul li:hover {
   nav a {
     font-size: 14px;
     color: #FFF;
+
   }
 }
+

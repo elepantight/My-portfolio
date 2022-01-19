@@ -1,10 +1,11 @@
 
   .animated-title {
-    color: #243447;
-    font-family: $text-font;
-    height: 150px;
-    left: 23%;
-    top: 150px;
+    color: $seaweed;
+    font-family: $text-header-two;
+    text-transform: uppercase;
+    height: 200px;
+    left: 16%;
+    top: 200px;
     position: absolute;
     transform: translate(-50%, -50%);
     width: 200px;
@@ -24,7 +25,7 @@
     display: block;
   }
   .animated-title > div.text-top {
-    border-bottom: 1vmin solid #c51f5d;
+    border-bottom: 1vmin solid $celadon;
     top: 0;
   }
   .animated-title > div.text-top div {
@@ -35,7 +36,7 @@
     transform: translate(0, 100%);
   }
   .animated-title > div.text-top div span:first-child {
-    color: $border-color;
+    color: $hunter-green;
   }
   .animated-title > div.text-bottom {
     bottom: 0;
@@ -64,14 +65,14 @@ margin-left: 20px;
   }
 
 
-  .row-card {
+  .container_folio {
     display: flex;
     justify-content: center;
     -webkit-justify-content: center;
     align-items: center;
     -webkit-align-items: center;
     min-height: 100vh;
-    margin-top: 100px;
+    margin-top: 200px;
     opacity: 0;
     -webkit-animation: fadeIn ease-in 1;
     -moz-animation: fadeIn ease-in 1;
@@ -90,7 +91,7 @@ margin-left: 20px;
   animation-delay: 2.5s;
   }
   @media only screen and (min-width: 1824px) {
-    .row-card {
+    .container_folio {
       display: flex;
       top: 9em;
       justify-content: center;
@@ -102,7 +103,7 @@ margin-left: 20px;
   
 
 
-  .container {
+  .row-card {
     width: auto;
     display: flex;
     justify-content: center;
@@ -112,11 +113,12 @@ margin-left: 20px;
     flex-wrap: wrap;
   }
   
-  .container .card {
+  .row-card .card {
     position: relative;
-    height: 400px;
+    height: 200px;
     display: flex;
     justify-content: center;
+    
   
     align-items: center;
   
@@ -125,7 +127,7 @@ margin-left: 20px;
   }
 
 
-  .container .card::before {
+  .row-card .card::before {
     content: "";
     position: absolute;
     top: 2px;
@@ -136,51 +138,41 @@ margin-left: 20px;
     opacity: 0;
   }
   
-  .container .card .content {
+  .row-card .card .content {
     padding: 30px;
     text-align: center;
   }
   
-  .container .card .content h2 {
-    position: absolute;
-    right: 200px;
-    font-size: 1em;
-    font-weight: 800;
-    color: #c51f5d;
-    z-index: 1;
-    opacity: 0;
-    transition: 0.5s;
-    font-family: $title-font;
-    background-color: #141d26;
-    padding: 10px;
-  }
+ 
   
-  .container .card:hover .content h2 {
+  .row-card .card:hover .content h2 {
     opacity: 1;
     transform: translateY(270px);
   }
   
 
   
-  .container .card .content p {
+  .row-card .card .content p {
     position: relative;
-    top: -300px;
+    top: -52px;
     font-size: 1em;
     z-index: 2;
     opacity: 0;
     letter-spacing: 1px;
-    transition: 0.5s;
+    transition: 0.7s;
     font-weight: 200;
     font-family: $text-font;
     color: #f3f4f4;
-    background-color: #141d26;
+    background-color: $seaweed;
     padding: 10px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
   }
-  .container .card:hover .content p {
+  .row-card .card:hover .content p {
     opacity: 1;
     transform: translateY(10px);
   }
-  .container .card .content a {
+  .row-card .card .content a {
     position: relative;
     display: inline-block;
     margin-top: auto;
@@ -190,33 +182,35 @@ margin-left: 20px;
     font-family: $text-font;
     text-transform: uppercase;
     font-weight: 600;
-    color: #c51f5d;
+    color: $seaweed;
     font-size: 16px;
-    border-radius: 30px;
-    box-shadow: 0px 0px 10px #28313B;
     transition: .5s;
     background-size: 200% auto;
     z-index: 1;
+    border:  2px solid $seaweed;
   }
   
-  .container .card .content a:hover{
+  .row-card .card .content a:hover{
     background-position: right center;
+    color: $celadon;
+    border: 2px solid black;
   }
   
   .card-img {
-    width: 500px;
+    width: 400px;
+    border-radius: 20px;
     opacity: .5;
   }
   .card-img:hover {
     opacity: 1;
+    
+    border-radius: 20px;
   }
-  .btn{
-    background-image: linear-gradient(to right, #D2CCC4 0%, #2F4353 51%, #D2CCC4 100%);
-  }
-.btn:hover{
-  background-position: right center;
-}
 
+.btn:hover{
+  background-color: black;
+  color: $celadon;
+}
 @media screen and (max-width: 375px) {
   .card{
     max-width: 320px;
