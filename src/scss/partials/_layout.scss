@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #c9d6b4;
+  background-color: #939297;
 }
 
 #no-copy {
@@ -51,7 +51,9 @@ body {
   height: 100px;
   text-align: center;
 }
-
+.logo-img{
+  max-width: 200px;
+}
 @-webkit-keyframes fadeIn {
   from {
     opacity: 0;

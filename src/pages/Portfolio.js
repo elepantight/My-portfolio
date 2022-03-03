@@ -50,25 +50,195 @@ useEffect(() => {
         <div className="text-top">
           <div>
             <span>Recent</span>
-            <span>Projects &amp;</span>
+            <span>Projects</span>
           </div>
         </div>
         <div className="text-bottom">
           <div>Prototypes</div>
         </div>
       </div>
-      <div className="container_folio">
+      <div className="vertical-block_1"></div>
+      <div className="vertical-block_2"></div>
+    {/*  //////////////////  */}
+      <div>
+        <div className="container-card">
+          {/* card 1 */}
+          <div className="card-div">
+            <div className="blog-card">
+              <div className="meta">
+                <img className="img-slide" src={GOT} alt="img" />
+                <ul className="details">
+                  <li className="text">
+                    <a className="number">1</a>
+                    <a
+                      href="https://github.com/elepantight/GameOfThronesBoardGame"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="link"
+                    >
+                      Github
+                    </a>
+                  </li>
+                  <a className="number">2</a>
+                  <a
+                    href="https://github.com/elepantight/GameOfThronesBoardGame"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="link"
+                  >
+                    Live
+                  </a>
+                </ul>
+              </div>
+              <div className="description">
+                <h1>Game Of Thrones Board Game</h1>
+                <h2>Vanilla Javascript</h2>
+                <p>
+                  {" "}
+                  Board Game created in JavaScript. Works for desktop and
+                  tablets.
+                </p>
+              </div>
+            </div>
+          </div>
+          {/* Card 2 */}
+          <div className="card-div">
+          <div className="blog-card alt">
+            <div className="meta">
+              <img className="img-slide" src={METANOIA} />
+              <ul className="details">
+                <li className="text">
+                  <a className="number">3</a>
+                  <a
+                    href="https://github.com/elepantight/coming-soon"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="link"
+                  >
+                    Github
+                  </a>
+                </li>
+                <a className="number">4</a>
+                <a
+                  href="https://metanoi4.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="link"
+                >
+                  Live{" "}
+                </a>
+              </ul>
+            </div>
+            <div className="description">
+              <h1>Coming Soon page Metanoia</h1>
+              <h2>React.js</h2>
+              <p>
+                Sign-up page for a clothing brand. Page not finished. looks
+                decent but buggy. Mobile is fucked up
+              </p>
+            </div>
+          </div>
+          </div>
+          {/* Card 3 */}
+          <div className="card-div">
+          <div className="blog-card">
+            <div className="meta">
+              <img className="img-slide" src={BESSEGGEN} alt="img" />
+              <ul className="details">
+                <li className="text">
+                  <a className="number">5</a>
+                  <a
+                    href="https://github.com/elepantight/Besseggen"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="link"
+                  >
+                    Github
+                  </a>
+                </li>
+                <li className="text">
+                <a className="number">6</a>
+                <a
+                  href="https://besseggen.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="link"
+                >
+                  Live
+                </a>
+                </li>
+                <li className="text">
+                <a className="number">7</a>
+                <a
+                  href="https://xd.adobe.com/view/b151078a-3966-4df6-6644-02f7a6c773a2-c760/?fullscreen&hints=off"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="link"
+                >
+                  adobe xd
+                </a>
+                </li>
+              </ul>
+            </div>
+            <div className="description">
+              <h1>Besseggen Arkitekter</h1>
+              <h2>HTML / CSS</h2>
+              <p> Bootstraped website for an architect company.
+
+              </p>
+            </div>
+          </div>
+          </div>
+          {/* Card 4 */}
+          <div className="card-div">
+          <div className="blog-card alt">
+            <div className="meta">
+              <img className="img-slide" src={TRA} />
+              <ul className="details">
+                <li className="text">
+                  <a className="number">8</a>
+                  <a
+                    href="https://xd.adobe.com/view/0fcc3074-a784-4df4-6c3e-f200f80db5f1-79fd/?fullscreen"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="link"
+                  >
+                    ADOBE XD
+                  </a>
+                </li>
+                <li className="text">
+                <a className="number">9</a>
+                <a
+                  href="https://xd.adobe.com/view/0fcc3074-a784-4df4-6c3e-f200f80db5f1-79fd/?fullscreen"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="link"
+                >
+                  Live{" "}
+                </a>
+                </li>
+              </ul>
+            </div>
+            <div className="description">
+              <h1>Prototype Trä & Miljö</h1>
+              <h2>Adobe Xd</h2>
+              <p>Prototype</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      {/*
+      <div className="container">
         {" "}
         <div className="row-card">
           {" "}
           <div className="card">
             <div className="content">
               <img className="card-img" src={METANOIA} alt="img" />
-              <p>
-                Coming Soon page Metanoia<br></br>
-                Sign-up page for a clothing brand. <br></br>
-                Page not finished. looks decent<br></br> in desktop but shit in
-                mobile.
+              <p>Coming Soon page Metanoia
+                Sign-up page for a clothing brand. 
+                Page not finished. looks decent but shit i
               </p>
               <a
                 href="https://github.com/elepantight/coming-soon"
@@ -206,6 +376,7 @@ useEffect(() => {
               </a>
             </div>
           </div>
+
           <div className="card">
             <div className="content">
               <img className="card-img" src={COOLBEANS} alt="img" />
@@ -307,6 +478,7 @@ useEffect(() => {
           </div>
         </div>
       </div>
+      */}
     </div>
   );
 }

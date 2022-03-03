@@ -2,23 +2,15 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  height: 600px;
-  background-color: $hunter-green;
+  height: 500px;
+  width: 600px;
+  background-color: #bfbc85;
   font-family: $text-font;
   font-size: 2em;
   margin-top: 10vh;
-  width: 700px;
-  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
+
+  border: 2px solid black;
   margin-bottom: 5vh;
-  clip-path: polygon(
-    0% 0%,
-    100% 0%,
-    100% 75%,
-    75% 75%,
-    75% 100%,
-    50% 75%,
-    0% 75%
-  );
 }
 @media only screen and (min-width: 1824px) {
   .contact-form {
@@ -82,7 +74,7 @@ form {
   border-bottom: 2px solid #141d26;
   background: none;
   padding: 0.6rem 1.2rem;
-  color: $celadon;
+  color: #34517b;
   font-weight: 500;
   font-size: 0.7em;
   letter-spacing: 0.5px;
@@ -187,8 +179,10 @@ textarea {
 }
 
 button {
-  margin-top: 20px;
-  margin-left: 20%;
+  margin-top: 7vh;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 button,
 button::after {
@@ -197,12 +191,12 @@ button::after {
   height: 86px;
   font-size: 36px;
   font-family: $text-header-two;
-  background: linear-gradient(45deg, transparent 5%, $celadon 5%);
+  background: linear-gradient(45deg, transparent 5%, #34517b 5%);
   border: 0;
-  color: #fff;
+  color: #467bb1;
   letter-spacing: 3px;
   line-height: 88px;
-  box-shadow: 6px 0px 0px $seaweed;
+  box-shadow: 6px 0px 0px #467bb1;
   outline: transparent;
   position: relative;
 }
@@ -225,11 +219,11 @@ button::after {
   background: linear-gradient(
     45deg,
     transparent 3%,
-    #00e6f6 3%,
-    #00e6f6 5%,
-    $celadon 5%
+    #467bb1 3%,
+    #467bb1 5%,
+    #34517b 5%
   );
-  text-shadow: -3px -3px 0px #f8f005, 3px 3px 0px #00e6f6;
+  text-shadow: -3px -3px 0px #f8f005, 3px 3px 0px #467bb1;
   clip-path: var(--slice-0);
 }
 

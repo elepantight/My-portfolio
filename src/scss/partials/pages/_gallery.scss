@@ -1,5 +1,7 @@
 .img-column{
-    margin-left: 12.5%;
+    margin-left: 4.5%;
+    
+    margin-top: 50px;
 
     opacity: 0;
     -webkit-animation: fadeIn ease-in 1;
@@ -17,15 +19,21 @@
   -webkit-animation-delay: .5s;
   -moz-animation-delay: .5s;
   animation-delay: .5s;
+
+
     
 }
 
   .img-card{
     display: inline;
-    
+
+ 
+ 
     .images{
-      width: 500px;
+      width: 400px;
       margin: 5px;
+      border: 15px solid #86858b;
+      border-radius: 20px;
     }
   }
 

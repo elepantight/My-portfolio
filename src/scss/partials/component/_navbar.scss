@@ -1,225 +1,104 @@
-/* navigation */
-/* CSS Document */
-.toggle-2,
-.toggle,
-[id^="drop"] {
-  display: none;
-}
-
-/* Giving a background-color to the nav container. */
-nav {
-  display: inline-block;
+.navbar {
+  opacity: 0;
+  height: 80px;
+  width: 90%;
+  margin-top: 30px;
+  margin-left: 5%;
+  background: #939297;
+  display: flex;
   justify-content: center;
-  margin-left: 22%;
-}
-
-/* Since we'll have the "ul li" "float:left"
- * we need to add a clear after the container. */
-
-nav:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Removing padding, margin and "list-style" from the "ul",
- * and adding "position:reltive" */
-nav ul {
-  display: inline-block;
-  padding: 0;
-  margin: 10px;
-  list-style: none;
-  position: relative;
-}
-
-/* Positioning the navigation items inline */
-nav ul li {
-  margin: 0px;
-  display: inline-block;
-}
-
-/* Styling the links */
-nav a {
-  font-family: $second-font;
-  text-decoration: none;
-  color: #FFF;
-  text-transform: uppercase;
-  font-weight: 400;
-  font-size: 1.5em;
-  letter-spacing: 2px;
-  margin: 10px;
-  padding: 5px;
-  display: inline-block;
-  transition: 0.5s all;
-  -webkit-transition: 0.5s all;
-  -moz-transition: 0.5s all;
-  -o-transition: 0.5s all;
-  -ms-transition: 0.5s all;
-}
-
-nav ul li ul li:hover {
-  background: #f8f9fa;
-  transition: 0.5s all;
-  -webkit-transition: 0.5s all;
-  -moz-transition: 0.5s all;
-  -o-transition: 0.5s all;
-  -ms-transition: 0.5s all;
-}
-
-.menu li .drop-text:hover {
-  color: #000;
-}
-
-/* Background color change on Hover */
-
-
-.menu li a:hover {
-  background-color:$seaweed;
-  border-bottom-left-radius: 25px;
-  border-bottom-right-radius: 40%;
-  border-top-right-radius: 16.5px;
-  border-top-left-radius: 12px;
-  transition: .1s all;
-  -webkit-transition:  1s all;
-  -moz-transition:  1s all;
-  -o-transition: 1s all;
-  -ms-transition:  1s all;
-}
-
-
-/* Media Queries
---------------------------------------------- */
-@media (max-width: 800px) {
-  nav a {
-    font-size: 14px;
-    
-  }
-}
-
-@media all and (max-width: 736px) {
-  nav {
-    margin: 0;
-    
-    float: right;
-    
-  }
-
-  /* Hide the navigation menu by default */
-  /* Also hide the  */
-  .toggle + a,
-  .menu {
-    display: none;
-  }
-
-  /* Stylinf the toggle lable */
-  .toggle.toogle-2 {
-    margin-top: 25px;
-    margin-right: 15px;
-    margin-left: 15px;
-    display: block;
-    padding: 10px 20px;
-    font-size: 1.2em;
-    text-decoration: none;
-    border: none;
-    font-family: $text-header-two;
+  align-items: center;
+  padding: 0 2rem;
  
-    color: $aganthus-green;
-    border-radius: 4px;
-    letter-spacing: 1px;
-    cursor: pointer;
-    background: $seaweed;
-    transition: 0.5s all;
-    -webkit-transition: 0.5s all;
-    -moz-transition: 0.5s all;
-    -o-transition: 0.5s all;
-    -ms-transition: 0.5s all;
-  }
+  font-size: 2.2rem;
+  border: 2px solid #86858b;
+  font-family: $second-font;
+  text-transform: uppercase;
+  box-shadow: 5px 5px #86858b;
 
-  .menu .toggle {
-    display: block;
-    float: none;
-    margin: auto;
-    max-width: 98px;
-    font-size: 14px;
-    cursor: pointer;
-    letter-spacing: 1px;
-    color: $seaweed;
-    font-weight: 500;
-    transition: 1s all;
-    -webkit-transition: 0.5s all;
-    -moz-transition: 0.5s all;
-    -o-transition: 0.5s all;
-    -ms-transition: 0.5s all;
-  }
+  -webkit-animation: fadeIn ease-in 1;
+  -moz-animation: fadeIn ease-in 1;
+  animation: fadeIn ease-in 1;
 
-  /* Display Dropdown when clicked on Parent Lable */
-  [id^="drop"]:checked + ul {
-    display: block;
-    background: $hunter-green;
-    padding: 25px 0;
-    z-index: 1;
-    
-  }
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
 
-  /* Change menu item's width to 100% */
-  nav ul li {
-    width: 100%;
-    padding: 5px ;
-    text-align: center;
-    
-    
-  }
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  animation-duration: 1.5s;
 
-  nav ul ul .toggle,
-  nav ul ul a {
-    padding: 0 40px;
-  }
-
-  nav ul ul ul a {
-    padding: 0 80px;
-  }
-
-  nav a:hover,
-  nav ul ul ul a {
-    background-color: black;
-  }
-
-  nav ul li ul li .toggle,
-  nav ul ul a,
-  nav ul ul ul a {
-    padding: 14px 20px;
-    color: #fff;
-    font-size: 17px;
-  }
-
-  /* 
-    nav ul li ul li .toggle,
-    nav ul ul a {
-        background-color: #212121;
-    } */
-
-  /* Hide menus on hover */
-  nav ul ul li:hover > ul,
-  nav ul li:hover > ul {
-    display: none;
-  }
-
-  nav ul ul ul li {
-    position: static;
-    width: auto;
-    /* has to be the same number as the "width" of "nav ul ul li" */
-  }
-
-
-
-  nav ul ul li a {
-    color: #525252;
-  }
-
-  nav a {
-    font-size: 14px;
-    color: #FFF;
-
-  }
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  animation-delay: 5s;
 }
 
+.nav-logo {
+  text-decoration: none;
+  color: #86858b;
+  padding-right: 100px;
+}
+
+.nav-links {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-gap: 20px;
+  list-style: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #200;
+  transition: 1s all;
+  padding: 5px;
+}
+
+.nav-link:hover {
+  color: #34517b;
+  background-color: #bfbc85;
+  border-radius: 30px;
+  transition: 1s all;
+  -webkit-transition: 1s all;
+  -moz-transition: 1s all;
+  -o-transition: 1s all;
+  -ms-transition: 1s all;
+}
+
+.nav-icon {
+  display: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 500px) {
+  .navbar {
+    position: relative;
+    justify-content: space-between;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 80px;
+    left: -100%;
+    transition: 0.5s all;
+  }
+
+  .nav-links.active {
+    background: blue;
+    left: 0;
+  }
+
+  .nav-item {
+    padding: 10px 0;
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
+  }
+
+  .nav-icon {
+    display: flex;
+  }
+}
