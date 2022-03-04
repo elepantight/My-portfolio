@@ -75,6 +75,8 @@
   .navbar {
     position: relative;
     justify-content: space-between;
+    
+    
   }
 
   .nav-links {
@@ -82,16 +84,19 @@
     flex-direction: column;
     position: absolute;
     text-align: center;
-    width: 100%;
-    top: 80px;
-    left: -120%;
+    width: 90%;
+    top: -600px;
     transition: 0.5s all;
-    border: 2px solid black;
+    border: 2px solid #86858b;
+    
+  box-shadow: 5px 5px #86858b;
+  
   }
 
   .nav-links.active {
     background: #939297;
-    left: 0;
+    top: 100px;
+    left: 20px;
   }
 
   .nav-item {
