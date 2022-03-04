@@ -75,6 +75,7 @@
   .navbar {
     position: relative;
     justify-content: space-between;
+    z-index: 1;
     
     
   }
@@ -88,6 +89,7 @@
     top: -600px;
     transition: 0.5s all;
     border: 2px solid #86858b;
+    background: #86858b;
     
   box-shadow: 5px 5px #86858b;
   
