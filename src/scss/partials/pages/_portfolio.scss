@@ -3,11 +3,17 @@
   font-family: $text-header-two;
   text-transform: uppercase;
   height: 200px;
-  left: 13%;
+  left: 14%;
   top: 250px;
   position: absolute;
   transform: translate(-50%, -50%);
   width: 200px;
+}
+@media only screen and (max-width: 600px) {
+  .animated-title {
+    margin-left: 100px;
+    margin-top: -20px;
+  }
 }
 .animated-title > div {
   height: 50%;
@@ -70,12 +76,7 @@
     transform: translate3d(0, 0, 0);
   }
 }
-@media only screen and (min-width: 375px) {
-  .animated-title {
-    margin-left: 80px;
-    margin-top: -20px;
-  }
-}
+
 
 /* Animated lines */
 

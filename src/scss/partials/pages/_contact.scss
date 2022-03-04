@@ -184,6 +184,8 @@ button {
   margin-right: auto;
   display: block;
 }
+
+
 button,
 button::after {
   cursor: pointer;
@@ -200,7 +202,12 @@ button::after {
   outline: transparent;
   position: relative;
 }
-
+@media only screen and (max-width: 500px) {
+  .button{
+    width: 300px;
+    
+  }
+}
 button::after {
   --slice-0: inset(50% 50% 50% 50%);
   --slice-1: inset(80% -6px 0 0);

@@ -37,27 +37,12 @@
     }
   }
 
-  @media screen and(max-width: 375px) {
+
+  @media screen and(max-width: 500px) {
     .img-card{
+      left: 10px;
       display: inline;
       position: relative;
-      left: -12px;
-      justify-content: center;
-      align-items: center;
-      width: 200px;
-    }
-    .images{
-      max-width: 300px;
-    }
-    
-  }
-
-
-  @media screen and(max-width: 444px) {
-    .img-card{
-      display: inline;
-      position: relative;
-      left: -18px;
       justify-content: center;
       align-items: center;
     }
