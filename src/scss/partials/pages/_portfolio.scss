@@ -72,7 +72,8 @@
 }
 @media only screen and (min-width: 375px) {
   .animated-title {
-    margin-left: 20px;
+    margin-left: 80px;
+    margin-top: -20px;
   }
 }
 
@@ -137,13 +138,27 @@
     transform: translateY(-15px);
   }
 }
+@media only screen and (max-width: 600px) {
+  .vertical-block_2  {
+   display: none;
+    
+    
+  } 
+  }
+
 
 .container-card {
   display: inline;
   margin-top: 100px;
   margin-left: 100px;
-  width: 1200px;
 }
+@media only screen and (max-width: 600px) {
+  .container-card {
+   display: none;
+    
+    
+  } 
+  }
 .blog-card {
   display: flex;
   flex-direction: row;
@@ -172,6 +187,8 @@
   -webkit-animation-delay: 2.5s;
   -moz-animation-delay: 2.5s;
   animation-delay: 2.5s;
+
+
   a {
     color: inherit;
     font-family: $text-font;
@@ -199,6 +216,13 @@
       transition: transform 0.2s;
     }
   }
+  @media only screen and (max-width: 600px) {
+    .img-slide {
+      display: none;
+      
+      
+    } 
+    }
   .details,
   .details ul {
     margin: auto;
@@ -357,4 +381,46 @@
       }
     }
   }
+
 }
+
+
+/// MObile test
+
+
+.container-mobile{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+  height: auto;
+  width: 80%;
+  border: 2px solid black;
+
+  
+  .card-mobile{
+    background-color: transparent;
+  }
+
+  .img-card_mobile{
+    width: 300px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .mobile-info{
+    font-family:$text-font;
+    font-size: 1em;
+    margin: 5px;
+    text-align: center;
+  }
+  
+}
+
+@media screen and (min-width: 600px) {
+  .container-mobile {
+   display: none;
+  }
+}
+
+

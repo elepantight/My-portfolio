@@ -59,7 +59,7 @@ useEffect(() => {
       </div>
       <div className="vertical-block_1"></div>
       <div className="vertical-block_2"></div>
-    {/*  //////////////////  */}
+      {/*  //////////////////  */}
       <div>
         <div className="container-card">
           {/* card 1 */}
@@ -93,7 +93,7 @@ useEffect(() => {
               <div className="description">
                 <h1>Game Of Thrones Board Game</h1>
                 <h2>Vanilla Javascript</h2>
-                <p  className="description-info">
+                <p className="description-info">
                   {" "}
                   Board Game created in JavaScript. Works for desktop and
                   tablets.
@@ -103,109 +103,135 @@ useEffect(() => {
           </div>
           {/* Card 2 */}
           <div className="card-div">
-          <div className="blog-card alt">
-            <div className="meta">
-              <img className="img-slide" src={METANOIA} />
-              <ul className="details">
-                <li className="text">
-                  <p className="number">3</p>
+            <div className="blog-card alt">
+              <div className="meta">
+                <img className="img-slide" src={METANOIA} />
+                <ul className="details">
+                  <li className="text">
+                    <p className="number">3</p>
+                    <a
+                      href="https://github.com/elepantight/coming-soon"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="link"
+                    >
+                      Github
+                    </a>
+                  </li>
+                  <p className="number">4</p>
                   <a
-                    href="https://github.com/elepantight/coming-soon"
+                    href="https://metanoi4.netlify.app/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="link"
                   >
-                    Github
+                    Live{" "}
                   </a>
-                </li>
-                <p className="number">4</p>
-                <a
-                  href="https://metanoi4.netlify.app/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="link"
-                >
-                  Live{" "}
-                </a>
-              </ul>
+                </ul>
+              </div>
+              <div className="description">
+                <h1>Coming Soon page Metanoia</h1>
+                <h2>React.js</h2>
+                <p className="description-info">
+                  Sign-up page for a clothing brand. Page not finished. looks
+                  decent but buggy. Mobile is fucked up
+                </p>
+              </div>
             </div>
-            <div className="description">
-              <h1>Coming Soon page Metanoia</h1>
-              <h2>React.js</h2>
-              <p className="description-info">
-                Sign-up page for a clothing brand. Page not finished. looks
-                decent but buggy. Mobile is fucked up
-              </p>
-            </div>
-          </div>
           </div>
           {/* Card 3 */}
           <div className="card-div">
-          <div className="blog-card">
-            <div className="meta">
-              <img className="img-slide" src={BESSEGGEN} alt="img" />
-              <ul className="details">
-                <li className="text">
-                  <p className="number">5</p>
-                  <a
-                    href="https://github.com/elepantight/Besseggen"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="link"
-                  >
-                    Github
-                  </a>
-                </li>
-                <li className="text">
-                <p className="number">6</p>
-                <a
-                  href="https://besseggen.netlify.app/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="link"
-                >
-                  Live
-                </a>
-                </li>
-              </ul>
+            <div className="blog-card">
+              <div className="meta">
+                <img className="img-slide" src={BESSEGGEN} alt="img" />
+                <ul className="details">
+                  <li className="text">
+                    <p className="number">5</p>
+                    <a
+                      href="https://github.com/elepantight/Besseggen"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="link"
+                    >
+                      Github
+                    </a>
+                  </li>
+                  <li className="text">
+                    <p className="number">6</p>
+                    <a
+                      href="https://besseggen.netlify.app/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="link"
+                    >
+                      Live
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div className="description">
+                <h1>Besseggen Arkitekter</h1>
+                <h2>HTML / CSS</h2>
+                <p className="description-info">
+                  {" "}
+                  Bootstraped website for an architect company.
+                </p>
+              </div>
             </div>
-            <div className="description">
-              <h1>Besseggen Arkitekter</h1>
-              <h2>HTML / CSS</h2>
-              <p className="description-info"> Bootstraped website for an architect company.
-
-              </p>
-            </div>
-          </div>
           </div>
           {/* Card 4 */}
           <div className="card-div">
-          <div className="blog-card alt">
-            <div className="meta">
-              <img className="img-slide" src={TRA} alt="alt"/>
-              <ul className="details">
-                <li className="text">
-                  <p className="number">7</p>
-                  <a
-                    href="https://xd.adobe.com/view/0fcc3074-a784-4df4-6c3e-f200f80db5f1-79fd/?fullscreen"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="link"
-                  >
-                    ADOBE XD
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div className="description">
-              <h1>Prototype Trä & Miljö</h1>
-              <h2>Adobe Xd</h2>
-              <p className="description-info">Prototype</p>
+            <div className="blog-card alt">
+              <div className="meta">
+                <img className="img-slide" src={TRA} alt="alt" />
+                <ul className="details">
+                  <li className="text">
+                    <p className="number">7</p>
+                    <a
+                      href="https://xd.adobe.com/view/0fcc3074-a784-4df4-6c3e-f200f80db5f1-79fd/?fullscreen"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="link"
+                    >
+                      ADOBE XD
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div className="description">
+                <h1>Prototype Trä & Miljö</h1>
+                <h2>Adobe Xd</h2>
+                <p className="description-info">Prototype</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      </div>
+      <div className="container-mobile">
+          <div className="card-mobile">
+              <img className="img-card_mobile" src={METANOIA} alt="img" />
+              <p className="mobile-info">Coming Soon page Metanoia
+                Sign-up page for a clothing brand. 
+                Page not finished. looks decent but shit i
+              </p>
+              <a
+                href="https://github.com/elepantight/coming-soon"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-1"
+              >
+                Github
+              </a>
+              <a
+                href="https://metanoi4.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-1"
+              >
+                live
+              </a>
+          </div>
+          </div>
       {/*
       <div className="container">
         {" "}
