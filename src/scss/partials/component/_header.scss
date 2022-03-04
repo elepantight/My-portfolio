@@ -37,14 +37,16 @@
     position: absolute;
     top: 17em;
     left: 1em;
+    font-size: 1em;
   }
 }
 
-@media screen and (max-width: 444px) {
+@media screen and (max-width: 600px) {
   .horizontal {
     position: absolute;
-    top: 17em;
+    top: 27em;
     left: 4em;
+    width: 70%;
   }
 }
 /* Animated lines */
@@ -131,10 +133,10 @@
         margin-left: 90px
       }
     }
-    @media screen and (max-width: 444px) {
+    @media screen and (max-width: 600px) {
       h1.text_name  {
         font-size: 46px;
-        margin-left: 10px;
+        margin-left: -30px;
       }
     }
     @media only screen and (min-width: 1824px) {
@@ -189,10 +191,10 @@
     font-size: .5em;
   }
 }
-@media screen and (max-width: 444px) {
+@media screen and (max-width: 600px) {
   h4.text_info{
     font-size: .5em;
-    margin-left: 100px;
+    margin-left: -50px;
   }
 }
 
