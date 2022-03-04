@@ -56,6 +56,7 @@
 .nav-link:hover {
   color: #34517b;
   background-color: #bfbc85;
+  border-bottom: 2px solid black;
   border-radius: 30px;
   transition: 1s all;
   -webkit-transition: 1s all;
@@ -83,22 +84,24 @@
     text-align: center;
     width: 100%;
     top: 80px;
-    left: -100%;
+    left: -120%;
     transition: 0.5s all;
+    border: 2px solid black;
   }
 
   .nav-links.active {
-    background: blue;
+    background: #939297;
     left: 0;
   }
 
   .nav-item {
     padding: 10px 0;
-    border-top: 1px solid red;
-    border-bottom: 1px solid red;
   }
 
   .nav-icon {
     display: flex;
+  }
+  .nav-link:hover {
+    border-bottom: 2px solid black;
   }
 }

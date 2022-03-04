@@ -69,7 +69,7 @@ useEffect(() => {
                 <img className="img-slide" src={GOT} alt="img" />
                 <ul className="details">
                   <li className="text">
-                    <a className="number">1</a>
+                    <p className="number">1</p>
                     <a
                       href="https://github.com/elepantight/GameOfThronesBoardGame"
                       target="_blank"
@@ -79,7 +79,7 @@ useEffect(() => {
                       Github
                     </a>
                   </li>
-                  <a className="number">2</a>
+                  <p className="number">2</p>
                   <a
                     href="https://github.com/elepantight/GameOfThronesBoardGame"
                     target="_blank"
@@ -93,7 +93,7 @@ useEffect(() => {
               <div className="description">
                 <h1>Game Of Thrones Board Game</h1>
                 <h2>Vanilla Javascript</h2>
-                <p>
+                <p  className="description-info">
                   {" "}
                   Board Game created in JavaScript. Works for desktop and
                   tablets.
@@ -108,7 +108,7 @@ useEffect(() => {
               <img className="img-slide" src={METANOIA} />
               <ul className="details">
                 <li className="text">
-                  <a className="number">3</a>
+                  <p className="number">3</p>
                   <a
                     href="https://github.com/elepantight/coming-soon"
                     target="_blank"
@@ -118,7 +118,7 @@ useEffect(() => {
                     Github
                   </a>
                 </li>
-                <a className="number">4</a>
+                <p className="number">4</p>
                 <a
                   href="https://metanoi4.netlify.app/"
                   target="_blank"
@@ -132,7 +132,7 @@ useEffect(() => {
             <div className="description">
               <h1>Coming Soon page Metanoia</h1>
               <h2>React.js</h2>
-              <p>
+              <p className="description-info">
                 Sign-up page for a clothing brand. Page not finished. looks
                 decent but buggy. Mobile is fucked up
               </p>
@@ -146,7 +146,7 @@ useEffect(() => {
               <img className="img-slide" src={BESSEGGEN} alt="img" />
               <ul className="details">
                 <li className="text">
-                  <a className="number">5</a>
+                  <p className="number">5</p>
                   <a
                     href="https://github.com/elepantight/Besseggen"
                     target="_blank"
@@ -157,7 +157,7 @@ useEffect(() => {
                   </a>
                 </li>
                 <li className="text">
-                <a className="number">6</a>
+                <p className="number">6</p>
                 <a
                   href="https://besseggen.netlify.app/"
                   target="_blank"
@@ -167,23 +167,12 @@ useEffect(() => {
                   Live
                 </a>
                 </li>
-                <li className="text">
-                <a className="number">7</a>
-                <a
-                  href="https://xd.adobe.com/view/b151078a-3966-4df6-6644-02f7a6c773a2-c760/?fullscreen&hints=off"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="link"
-                >
-                  adobe xd
-                </a>
-                </li>
               </ul>
             </div>
             <div className="description">
               <h1>Besseggen Arkitekter</h1>
               <h2>HTML / CSS</h2>
-              <p> Bootstraped website for an architect company.
+              <p className="description-info"> Bootstraped website for an architect company.
 
               </p>
             </div>
@@ -193,10 +182,10 @@ useEffect(() => {
           <div className="card-div">
           <div className="blog-card alt">
             <div className="meta">
-              <img className="img-slide" src={TRA} />
+              <img className="img-slide" src={TRA} alt="alt"/>
               <ul className="details">
                 <li className="text">
-                  <a className="number">8</a>
+                  <p className="number">7</p>
                   <a
                     href="https://xd.adobe.com/view/0fcc3074-a784-4df4-6c3e-f200f80db5f1-79fd/?fullscreen"
                     target="_blank"
@@ -206,23 +195,12 @@ useEffect(() => {
                     ADOBE XD
                   </a>
                 </li>
-                <li className="text">
-                <a className="number">9</a>
-                <a
-                  href="https://xd.adobe.com/view/0fcc3074-a784-4df4-6c3e-f200f80db5f1-79fd/?fullscreen"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="link"
-                >
-                  Live{" "}
-                </a>
-                </li>
               </ul>
             </div>
             <div className="description">
               <h1>Prototype Trä & Miljö</h1>
               <h2>Adobe Xd</h2>
-              <p>Prototype</p>
+              <p className="description-info">Prototype</p>
             </div>
           </div>
         </div>

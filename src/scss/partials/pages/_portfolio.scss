@@ -249,9 +249,9 @@
     }
   }
   .number {
-    font-size: 1.7rem;
+    font-size: .7rem;
     position: relative;
-    top: -50px;
+    top: 105x;
     color: #939297;
   }
   .description {
@@ -297,9 +297,9 @@
       }
     }
   }
-  p {
+  .description-info {
     position: relative;
-    margin: 1rem 0 0;
+    margin: .1rem 0 0;
     color: #316451;
     font-family: $title-font;
     &:first-of-type {
