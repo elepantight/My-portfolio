@@ -81,7 +81,7 @@ useEffect(() => {
                   </li>
                   <p className="number">2</p>
                   <a
-                    href="https://github.com/elepantight/GameOfThronesBoardGame"
+                    href="https://gameofthronesboardgame.netlify.app/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="link"
@@ -207,31 +207,39 @@ useEffect(() => {
           </div>
         </div>
       </div>
+
       <div className="container-mobile">
-          <div className="card-mobile">
-              <img className="img-card_mobile" src={METANOIA} alt="img" />
-              <p className="mobile-info">Coming Soon page Metanoia
-                Sign-up page for a clothing brand. 
-                Page not finished. looks decent but shit i
-              </p>
-              <a
-                href="https://github.com/elepantight/coming-soon"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn btn-1"
-              >
-                Github
-              </a>
-              <a
-                href="https://metanoi4.netlify.app/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn btn-1"
-              >
-                live
-              </a>
-          </div>
-          </div>
+        <div className="card-mobile">
+          <img className="img-card_mobile" src={GOT} alt="img" />
+          <h2 className="mobile-text">Vanilla Javascript</h2>
+          <p className="mobile-info">
+          Board Game created in JavaScript. <br></br> Works for desktop and
+                  tablets
+          </p>
+          <ul className="mobile-list">
+            <li className="mobile-links">
+          <a
+            href="https://github.com/elepantight/GameOfThronesBoardGame"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mobile-link"
+          >
+            Github
+          </a>
+          </li>
+<li className="mobile-links">
+          <a
+            href="https://github.com/elepantight/GameOfThronesBoardGame"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mobile-link"
+          >
+            Live
+          </a>
+          </li>
+          </ul>
+        </div>
+      </div>
       {/*
       <div className="container">
         {" "}
