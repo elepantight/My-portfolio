@@ -213,7 +213,7 @@ useEffect(() => {
           <img className="img-card_mobile" src={GOT} alt="img" />
           <h2 className="mobile-text">Vanilla Javascript</h2>
           <p className="mobile-info">
-          Board Game created in JavaScript. <br></br> Works for desktop and
+          Board Game created with JavaScript. <br></br> Works for desktop and
                   tablets
           </p>
           <ul className="mobile-list">
