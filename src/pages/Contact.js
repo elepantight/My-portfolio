@@ -74,7 +74,7 @@ export default function ContactUs() {
               <label htmlFor=""></label>
               <span></span>
             </div>
-            <button>SEND EMAIL</button>
+            <button className="contact-button">SEND EMAIL</button>
           </form>
         </div>
       </section>

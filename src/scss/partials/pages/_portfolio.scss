@@ -77,7 +77,6 @@
   }
 }
 
-
 /* Animated lines */
 
 /* .vertical-block_1 {
@@ -113,7 +112,6 @@
 }
 */
 .vertical-block_2 {
-  
   position: absolute;
   top: 20em;
   left: 10%;
@@ -140,13 +138,10 @@
   }
 }
 @media only screen and (max-width: 600px) {
-  .vertical-block_2  {
-   display: none;
-    
-    
-  } 
+  .vertical-block_2 {
+    display: none;
   }
-
+}
 
 .container-card {
   display: inline;
@@ -155,11 +150,9 @@
 }
 @media only screen and (max-width: 600px) {
   .container-card {
-   display: none;
-    
-    
-  } 
+    display: none;
   }
+}
 .blog-card {
   display: flex;
   flex-direction: row;
@@ -188,7 +181,6 @@
   -webkit-animation-delay: 2.5s;
   -moz-animation-delay: 2.5s;
   animation-delay: 2.5s;
-
 
   a {
     color: inherit;
@@ -220,10 +212,8 @@
   @media only screen and (max-width: 600px) {
     .img-slide {
       display: none;
-      
-      
-    } 
     }
+  }
   .details,
   .details ul {
     margin: auto;
@@ -274,7 +264,7 @@
     }
   }
   .number {
-    font-size: .7rem;
+    font-size: 0.7rem;
     position: relative;
     top: 105x;
     color: #939297;
@@ -324,7 +314,7 @@
   }
   .description-info {
     position: relative;
-    margin: .1rem 0 0;
+    margin: 0.1rem 0 0;
     color: #316451;
     font-family: $title-font;
     &:first-of-type {
@@ -382,31 +372,29 @@
       }
     }
   }
-
 }
-
 
 /// MObile test
 
-
-.container-mobile{
+.border-mobile {
+  margin-top: 200px;
+}
+.container-mobile {
   display: flex;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 200px;
   height: auto;
   width: 80%;
+  margin-top: 20px;
   border: 2px solid #000;
   box-shadow: 5px 5px #467bb1;
   border-radius: 5px;
 
-
-  
-  .card-mobile{
+  .card-mobile {
     background-color: transparent;
   }
 
-  .img-card_mobile{
+  .img-card_mobile {
     width: 320px;
     margin-top: 10px;
     display: flex;
@@ -414,41 +402,46 @@
     margin-right: auto;
     border-radius: 5px;
   }
-  .mobile-text{
-    font-family:$text-header;
-    margin-left: 85px;
+  .mobile-text {
+    font-family: $text-header;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: $green;
+    font-size: 1em;
   }
-  .mobile-info{
-    font-family:$text-font;
-    font-size: .8em;
+  .mobile-info {
+    font-family: $text-font;
+    font-size: 0.8em;
     margin: 5px;
     text-align: center;
   }
-  .mobile-list{
-list-style-type: none;    
+  .mobile-list {
+    list-style-type: none;
   }
-  a, .mobile-links{
+  a,.mobile-links {
     position: relative;
-    left: 21%;
     padding: 2px;
     margin: 5px;
     display: inline-block;
-    font-family: $second-font;
+    font-family: $button;
+    font-weight: 700;
     color: #316451;
     font-size: 24px;
     text-transform: uppercase;
     text-decoration: none;
     justify-content: space-between;
-    
   }
-  
+  .mobile-links{
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 @media screen and (min-width: 600px) {
   .container-mobile {
-   display: none;
+    display: none;
   }
 }
-
-

@@ -208,37 +208,107 @@ useEffect(() => {
         </div>
       </div>
 
-      <div className="container-mobile">
-        <div className="card-mobile">
-          <img className="img-card_mobile" src={GOT} alt="img" />
-          <h2 className="mobile-text">Vanilla Javascript</h2>
-          <p className="mobile-info">
-          Board Game created with JavaScript. <br></br> Works for desktop and
-                  tablets
-          </p>
-          <ul className="mobile-list">
-            <li className="mobile-links">
-          <a
-            href="https://github.com/elepantight/GameOfThronesBoardGame"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="mobile-link"
-          >
-            Github
-          </a>
-          </li>
-<li className="mobile-links">
-          <a
-            href="https://github.com/elepantight/GameOfThronesBoardGame"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="mobile-link"
-          >
-            Live
-          </a>
-          </li>
-          </ul>
+      {/* MOBILE */}
+
+      <div className="border-mobile">
+        <div className="container-mobile">
+          <div className="card-mobile">
+            <img className="img-card_mobile" src={GOT} alt="img" />
+            <h2 className="mobile-text">Vanilla Javascript</h2>
+            <p className="mobile-info">
+              Board Game created with JavaScript. <br></br> Works for desktop
+              and tablets
+            </p>
+            <ul className="mobile-list">
+              <li className="mobile-links">
+                <a
+                  href="https://github.com/elepantight/GameOfThronesBoardGame"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mobile-link"
+                >
+                  Github
+                </a>
+              </li>
+              <li className="mobile-links">
+                <a
+                  href="https://gameofthronesboardgame.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mobile-link"
+                >
+                  Live
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
+        <div className="container-mobile">
+          <div className="card-mobile">
+            <img className="img-card_mobile" src={METANOIA} alt="img" />
+            <h2 className="mobile-text">React.js</h2>
+            <p className="mobile-info">
+            Sign-up page for a clothing brand. <br></br>Page not finished. looks
+                  decent but buggy.<br></br>Mobile is fucked up
+            </p>
+            <ul className="mobile-list">
+              <li className="mobile-links">
+              <a
+                      href="https://github.com/elepantight/coming-soon"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="link"
+                    >
+                      Github
+                    </a>
+                  </li>
+                  <li className="mobile-links">
+                  <a
+                    href="https://metanoi4.netlify.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="link"
+                  >
+                    Live{" "}
+                  </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div className="container-mobile">
+          <div className="card-mobile">
+            <img className="img-card_mobile" src={BESSEGGEN} alt="img" />
+            <h2 className="mobile-text">HTML / CSS</h2>
+            <p className="mobile-info">
+            Bootstraped website for an architect company.
+            </p>
+            <ul className="mobile-list">
+              <li className="mobile-links">
+                <a
+                  href="https://github.com/elepantight/Besseggen"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mobile-link"
+                >
+                  Github
+                </a>
+              </li>
+              <li className="mobile-links">
+                <a
+                  href="https://besseggen.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mobile-link"
+                >
+                  Live
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div>
+        hej
       </div>
       {/*
       <div className="container">
