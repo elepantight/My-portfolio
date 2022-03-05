@@ -19,17 +19,10 @@
   }
 }
 
-@media screen and(max-width: 444px) {
+@media screen and(max-width: 400px) {
   .contact-form {
-    height: 900px;
-    width: 400px;
-    margin-left: 13px;
-  }
-}
-@media screen and(max-width: 375px) {
-  .contact-form {
-    height: 900px;
-    width: 350px;
+    height: 500px;
+    width: 375px;
     margin-left: 13px;
   }
 }
@@ -202,8 +195,8 @@ textarea {
   outline: transparent;
   position: relative;
 }
-@media only screen and (max-width: 500px) {
-  .contact-buttonn{
+@media only screen and (max-width: 400px) {
+  .contact-button{
     width: 300px;
     
   }
