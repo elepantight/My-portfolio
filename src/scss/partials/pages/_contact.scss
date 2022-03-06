@@ -31,7 +31,7 @@
     }
   }
   */
-  
+
   .social-media-links {
     text-align: center;
     display: table;
@@ -51,26 +51,33 @@
     text-decoration: none;
     transition: 2s all ease;
 
-
     .social-media-text {
       margin-top: 15px;
       text-transform: uppercase;
     }
   }
-  
+}
+
+@media screen and(max-width: 375px) {
+  .social-media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -130px;
+  }
+}
+@media screen and(max-width: 444px) {
+  .social-media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -130px;
+  }
 }
 @media only screen and (min-width: 1824px) {
   .social-media-links {
     margin-top: 440px;
     margin-left: 52%;
-  }
-}
-@media screen and(max-width: 400px) {
-  .social-media-links {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   margin-left: -130px;
   }
 }
 .social-media-links:hover {
@@ -98,22 +105,6 @@
   border: 3px solid #000;
   box-shadow: 5px 5px #467bb1;
   margin-bottom: 5vh;
-}
-@media only screen and (min-width: 1824px) {
-  .contact-form {
-    width: 900px;
-    margin-top: 100px;
-    margin-left: 42%;
-  }
-}
-
-@media screen and(max-width: 400px) {
-  .contact-form {
-    margin-top: 600px;
-    height: 500px;
-    width: 365px;
-    margin-left: 13px;
-  }
 }
 
 .form {
@@ -279,7 +270,6 @@ button.contact-button {
   font-weight: 700;
 
   transition: 1s all ease;
-
 }
 
 .contact-button:hover {
@@ -292,21 +282,49 @@ button.contact-button {
   -moz-transition: 1s all;
   -o-transition: 1s all;
 }
+
+
+
+@media only screen and (min-width: 1824px) {
+  .contact-form {
+    width: 900px;
+    margin-top: 100px;
+    margin-left: 42%;
+  }
+}
+
+@media screen and(max-width: 375px) {
+  .contact-form {
+    margin-top: 600px;
+    height: 500px;
+    width: 345px;
+    margin-left: 13px;
+  }
+}
+
+@media screen and(max-width: 444px) {
+  .contact-form {
+    margin-top: 600px;
+    height: 500px;
+    width: 365px;
+    margin-left: 13px;
+  }
+}
 @media screen and(max-width: 400px) {
   button.contact-button {
     margin-top: 7vh;
     margin-left: auto;
     margin-right: auto;
     display: block;
-  
+
     width: 300px;
     height: 100px;
-  
+
     color: #bfbc85;
     background-color: #939297;
     border: 3px solid #000;
     box-shadow: 5px 5px #467bb1;
-  
+
     font-size: 1em;
     font-family: $text-header-two;
     font-weight: 700;

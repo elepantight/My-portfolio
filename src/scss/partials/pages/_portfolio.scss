@@ -165,6 +165,7 @@
   margin-bottom: 1.6%;
   line-height: 1.2;
   font-family: $text-font;
+  font-weight: 700;
   
   overflow: hidden;
   z-index: 0;
@@ -188,6 +189,7 @@
   a {
     color: inherit;
     font-family: $text-font;
+    font-weight: 700;
 
     &:hover {
       color: #bc5453;
@@ -235,9 +237,11 @@
     padding: 10px;
     width: 100%;
     font-size: 5rem;
+    
     a {
       text-decoration: none;
       text-transform: uppercase;
+      font-weight: 500;
     }
     ul li {
       display: inline-block;
@@ -247,6 +251,7 @@
       ul:before {
         font-family: FontAwesome;
         margin-right: 10px;
+        
       }
       li {
         margin-right: 2px;
@@ -271,15 +276,16 @@
     h2 {
       font-family: $text-header;
       color: #bfbc85;
+      font-weight: 700;
     }
     h1 {
       line-height: 1;
       margin: 0;
-      font-size: 1.2rem;
+      font-size: 1.5rem;
     }
     h2 {
       font-size: 1rem;
-      font-weight: 300;
+      font-weight: 700;
       text-transform: uppercase;
       color: #34517b;
       margin-top: 5px;
