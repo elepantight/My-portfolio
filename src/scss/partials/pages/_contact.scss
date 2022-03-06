@@ -49,6 +49,8 @@
     font-family: $text-header-two;
     font-weight: 700;
     text-decoration: none;
+    transition: 2s all ease;
+
 
     .social-media-text {
       margin-top: 15px;
@@ -71,7 +73,7 @@
   color: #7faa8f;
   border-radius: 30px;
 
-  transition: 1s all;
+  transition: 2s all ease;
   -webkit-transition: 1s all;
   -moz-transition: 1s all;
   -o-transition: 1s all;
@@ -269,6 +271,9 @@ button.contact-button {
   font-size: 2em;
   font-family: $text-header-two;
   font-weight: 700;
+
+  transition: 1s all ease;
+
 }
 
 .contact-button:hover {
