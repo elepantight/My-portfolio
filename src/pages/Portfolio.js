@@ -62,46 +62,8 @@ useEffect(() => {
       {/*  //////////////////  */}
       <div>
         <div className="container-card">
-          {/* card 1 */}
-          <div className="card-div">
-            <div className="blog-card">
-              <div className="meta">
-                <img className="img-slide" src={GOT} alt="img" />
-                <ul className="details">
-                  <li className="text">
-                    <p className="number">1</p>
-                    <a
-                      href="https://github.com/elepantight/GameOfThronesBoardGame"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="link"
-                    >
-                      Github
-                    </a>
-                  </li>
-                  <p className="number">2</p>
-                  <a
-                    href="https://gameofthronesboardgame.netlify.app/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="link"
-                  >
-                    Live
-                  </a>
-                </ul>
-              </div>
-              <div className="description">
-                <h1>Game Of Thrones Board Game</h1>
-                <h2>Vanilla Javascript</h2>
-                <p className="description-info">
-                  {" "}
-                  Board Game created with JavaScript. Works for desktop and
-                  tablets.
-                </p>
-              </div>
-            </div>
-          </div>
-          {/* Card 2 */}
+         
+          {/* Card 1 */}
           <div className="card-div">
             <div className="blog-card alt">
               <div className="meta">
@@ -135,6 +97,45 @@ useEffect(() => {
                 <p className="description-info">
                   Sign-up page for a clothing brand. Page not finished. looks
                   decent but buggy. Mobile is fucked up
+                </p>
+              </div>
+            </div>
+          </div>
+           {/* card 2 */}
+           <div className="card-div">
+            <div className="blog-card">
+              <div className="meta">
+                <img className="img-slide" src={GOT} alt="img" />
+                <ul className="details">
+                  <li className="text">
+                    <p className="number">1</p>
+                    <a
+                      href="https://github.com/elepantight/GameOfThronesBoardGame"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="link"
+                    >
+                      Github
+                    </a>
+                  </li>
+                  <p className="number">2</p>
+                  <a
+                    href="https://gameofthronesboardgame.netlify.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="link"
+                  >
+                    Live
+                  </a>
+                </ul>
+              </div>
+              <div className="description">
+                <h1>Game Of Thrones Board Game</h1>
+                <h2>Vanilla Javascript</h2>
+                <p className="description-info">
+                  {" "}
+                  Board Game created with JavaScript. Works for desktop and
+                  tablets.
                 </p>
               </div>
             </div>

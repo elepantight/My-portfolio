@@ -1,53 +1,59 @@
-.img-column{
-    margin-left: 4.5%;
-    
-    margin-top: 50px;
+.img-column {
+  margin-left: 4.5%;
 
-    opacity: 0;
-    -webkit-animation: fadeIn ease-in 1;
-    -moz-animation: fadeIn ease-in 1;
-    animation: fadeIn ease-in 1;
-  
-    -webkit-animation-fill-mode: forwards;
-    -moz-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
-  
-    -webkit-animation-duration: 1s;
-    -moz-animation-duration: 1s;
-    animation-duration: 1s;
-    
-  -webkit-animation-delay: .5s;
-  -moz-animation-delay: .5s;
-  animation-delay: .5s;
+  margin-top: 50px;
 
+  opacity: 0;
+  -webkit-animation: fadeIn ease-in 1;
+  -moz-animation: fadeIn ease-in 1;
+  animation: fadeIn ease-in 1;
 
-    
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  animation-duration: 1s;
+
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  animation-delay: 0.5s;
 }
 
-  .img-card{
+.img-card {
+  display: inline;
+
+  .images {
+    width: 400px;
+    margin: 5px;
+
+    border: 3px solid #000;
+    box-shadow: 5px 5px #467bb1;
+  }
+}
+
+@media screen and(max-width: 400px) {
+  .img-card {
     display: inline;
-
- 
- 
-    .images{
-      width: 400px;
-      margin: 5px;
-      
-  border: 3px solid #000;
-  box-shadow: 5px 5px #467bb1;
-    }
+    position: relative;
+    justify-content: center;
+    align-items: center;
   }
-
-
-  @media screen and(max-width: 400px) {
-    .img-card{
-      display: inline;
-      position: relative;
-      justify-content: center;
-      align-items: center;
-    }
-    .images{
-      max-width: 360px;
-    }
-    
+  .images {
+    width: 360px;
   }
+}
+@media screen and(min-width: 1824px) {
+  .img-card {
+    display: inline;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+  
+  .images {
+    width: 560px;
+    margin-left: 10px;
+  }
+}
+}
