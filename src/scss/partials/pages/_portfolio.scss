@@ -50,7 +50,7 @@
 }
 .animated-title > div.text-bottom div {
   animation: showBottomText 0.5s;
-  animation-delay: 1.75s;
+  animation-delay: 2s;
   animation-fill-mode: forwards;
   top: 0;
   transform: translate(0, -100%);
@@ -130,10 +130,13 @@
   100% {
     transform: translateY(0);
   }
+  70%{
+    transform:translateY(-15px) ;
+  }
   40% {
     transform: translateY(-30px);
   }
-  60% {
+  10% {
     transform: translateY(-15px);
   }
 }
@@ -157,12 +160,12 @@
   display: flex;
   flex-direction: row;
   margin: 1.3rem auto;
-  border: 2px solid #200;
+  border: 3px solid #200;
   box-shadow: 5px 5px #467bb1;
   margin-bottom: 1.6%;
   line-height: 1.2;
   font-family: $text-font;
-  border-radius: 5px;
+  
   overflow: hidden;
   z-index: 0;
   opacity: 0;
@@ -240,16 +243,6 @@
       display: inline-block;
       margin-top: 50px;
     }
-    .text:before {
-      font-family: FontAwesome;
-      margin-right: 10px;
-    }
-
-    .date:before {
-      font-family: FontAwesome;
-      margin-right: 10px;
-    }
-
     .tags {
       ul:before {
         font-family: FontAwesome;
@@ -323,10 +316,9 @@
         content: "";
         position: absolute;
         height: 5px;
-        background: $celadon;
+        background: #bc5453;
         width: 35px;
         top: -0.75rem;
-        border-radius: 3px;
       }
     }
   }
@@ -386,7 +378,7 @@
   height: auto;
   width: 80%;
   margin-top: 20px;
-  border: 2px solid #000;
+  border: 3px solid #000;
   box-shadow: 5px 5px #467bb1;
   border-radius: 5px;
 

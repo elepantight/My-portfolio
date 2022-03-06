@@ -12,7 +12,7 @@
  
   font-size: 2.2rem;
   border: 2px solid #86858b;
-  font-family: $second-font;
+  font-family: $button;
   text-transform: uppercase;
   box-shadow: 5px 5px #86858b;
 
@@ -48,14 +48,18 @@
 
 .nav-link {
   text-decoration: none;
-  color: #200;
+  color: #86858b;
   transition: 1s all;
   padding: 5px;
 }
 
 .nav-link:hover {
-  color: #34517b;
-  background-color: #bfbc85;
+border-bottom: 2px solid #bfbc85;
+border-top: 2px solid #bfbc85;
+color: #34517b;
+
+}
+ /* background-color: #bfbc85;
   border-bottom: 2px solid black;
   border-radius: 30px;
   transition: 1s all;
@@ -64,7 +68,7 @@
   -o-transition: 1s all;
   -ms-transition: 1s all;
 }
-
+*/
 .nav-icon {
   display: none;
   font-size: 2rem;

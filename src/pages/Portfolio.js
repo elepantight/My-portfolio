@@ -95,7 +95,7 @@ useEffect(() => {
                 <h2>Vanilla Javascript</h2>
                 <p className="description-info">
                   {" "}
-                  Board Game created in JavaScript. Works for desktop and
+                  Board Game created with JavaScript. Works for desktop and
                   tablets.
                 </p>
               </div>
