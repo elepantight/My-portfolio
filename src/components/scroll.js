@@ -2,11 +2,11 @@ import React, { useState, useEffect } from "react";
 import { makeStyles } from "@material-ui/core/styles";
 
 
-import METEOR from './../images/meteor.svg';
+import ARROW from './../images/arrow-up.png';
 
 const useStyles = makeStyles((theme) => ({
     toTop: {
-        width: 80,
+        width: 40,
         zIndex: 2,
         position: 'fixed',
         bottom: '2vh',
@@ -44,7 +44,7 @@ const Scroll = (showBelow) => {
     return (
         <div className="backToTop">
                       <img
-            src={METEOR}
+            src={ARROW}
             alt="img"
             onClick={handleClick} className={classes.toTop}
           />
