@@ -57,13 +57,10 @@
     }
   }
 }
-
-@media screen and(max-width: 375px) {
+@media only screen and (min-width: 1824px) {
   .social-media-links {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: -130px;
+    margin-top: 440px;
+    margin-left: 52%;
   }
 }
 @media screen and(max-width: 444px) {
@@ -74,12 +71,16 @@
     margin-left: -130px;
   }
 }
-@media only screen and (min-width: 1824px) {
+@media screen and(max-width: 375px) {
   .social-media-links {
-    margin-top: 440px;
-    margin-left: 52%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -140px;
   }
 }
+
+
 .social-media-links:hover {
   background-color: #34517b;
   color: #7faa8f;
@@ -293,14 +294,6 @@ button.contact-button {
   }
 }
 
-@media screen and(max-width: 375px) {
-  .contact-form {
-    margin-top: 600px;
-    height: 500px;
-    width: 345px;
-    margin-left: 13px;
-  }
-}
 
 @media screen and(max-width: 444px) {
   .contact-form {
@@ -310,7 +303,16 @@ button.contact-button {
     margin-left: 13px;
   }
 }
-@media screen and(max-width: 400px) {
+@media screen and(max-width: 376px) {
+  .contact-form {
+    margin-top: 600px;
+    height: 500px;
+    width: 350px;
+    margin-left: 13px;
+  }
+}
+
+@media screen and(max-width: 444px) {
   button.contact-button {
     margin-top: 7vh;
     margin-left: auto;
@@ -318,6 +320,26 @@ button.contact-button {
     display: block;
 
     width: 300px;
+    height: 100px;
+
+    color: #bfbc85;
+    background-color: #939297;
+    border: 3px solid #000;
+    box-shadow: 5px 5px #467bb1;
+
+    font-size: 1em;
+    font-family: $text-header-two;
+    font-weight: 700;
+  }
+}
+@media screen and(max-width: 375px) {
+  button.contact-button {
+    margin-top: 7vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+    width: 250px;
     height: 100px;
 
     color: #bfbc85;
