@@ -32,7 +32,7 @@
     box-shadow: 5px 5px #467bb1;
   }
 }
-@media screen and(max-width: 1280px) {
+@media screen and(min-width: 1280px) {
   .img-card {
     display: inline;
     position: relative;
@@ -41,7 +41,7 @@
   
   .images {
     width: 1150px;
-    margin-left: 40px;
+    margin-left: 10px;
   }
 }
 }
