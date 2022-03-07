@@ -130,8 +130,8 @@
   100% {
     transform: translateY(0);
   }
-  70%{
-    transform:translateY(-15px) ;
+  70% {
+    transform: translateY(-15px);
   }
   40% {
     transform: translateY(-30px);
@@ -166,7 +166,7 @@
   line-height: 1.2;
   font-family: $text-font;
   font-weight: 700;
-  
+
   overflow: hidden;
   z-index: 0;
   opacity: 0;
@@ -201,7 +201,8 @@
     z-index: 0;
     height: 200px;
   }
-  img,.img-slide {
+  img,
+  .img-slide {
     max-width: 500px;
     .img-slide {
       position: absolute;
@@ -237,7 +238,7 @@
     padding: 10px;
     width: 100%;
     font-size: 5rem;
-    
+
     a {
       text-decoration: none;
       text-transform: uppercase;
@@ -251,7 +252,6 @@
       ul:before {
         font-family: FontAwesome;
         margin-right: 10px;
-        
       }
       li {
         margin-right: 2px;
@@ -418,7 +418,8 @@
   .mobile-list {
     list-style-type: none;
   }
-  a,.mobile-links {
+  a,
+  .mobile-links {
     position: relative;
     padding: 2px;
     margin: 5px;
@@ -431,14 +432,29 @@
     text-decoration: none;
     justify-content: space-between;
   }
-  .mobile-links{
+  .mobile-links {
     border: 2px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
   }
 }
-
+@media only screen and (max-width: 444px) {
+  .container-mobile {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 90%;
+    margin-top: 20px;
+    border: 2px solid #000;
+    box-shadow: 5px 5px #467bb1;
+    border-radius: 5px;
+    .img-card_mobile {
+      width: 375px;
+    }
+  }
+}
 @media only screen and (max-width: 375px) {
   .container-mobile {
     display: flex;
@@ -450,27 +466,12 @@
     border: 2px solid #000;
     box-shadow: 5px 5px #467bb1;
     border-radius: 5px;
-  .img-card_mobile {
-    width: 315px;
+    .img-card_mobile {
+      width: 315px;
+    }
   }
 }
-}
-@media only screen and (max-width: 400px) {
-  .container-mobile {
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    height: auto;
-    width: 90%;
-    margin-top: 20px;
-    border: 2px solid #000;
-    box-shadow: 5px 5px #467bb1;
-    border-radius: 5px;
-  .img-card_mobile {
-    width: 337px;
-  }
-}
-}
+
 
 @media screen and (min-width: 600px) {
   .container-mobile {
