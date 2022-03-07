@@ -60,7 +60,73 @@
 }
 
 
-@media screen and(max-width: 444px) {
+
+@media screen and(max-width: 375px) {
+  .objectives-title {
+    text-align: center;
+    width: 80%;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 40px;
+  
+    color: #bfbc85;
+    background-color: #939297;
+    border: 3px solid #000;
+    box-shadow: 5px 5px #467bb1;
+  
+    font-size: 2em;
+    font-family: $text-header-two;
+    font-weight: 700;
+    text-decoration: none;
+    transition: 2s all ease;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .objectives {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    margin: 10px;
+    display: inline-block;
+    width: 320px;
+    padding: 5px;
+  
+    .upcoming-objectives {
+      height: 430px;
+      background-color: #939297;
+      border: 3px solid #000;
+      box-shadow: 5px 5px #467bb1;
+      width: 335px;
+  
+      .objectives-title_second {
+        font-family: $text-header;
+        font-weight: 700;
+        font-size: 2em;
+        text-align: center;
+        color: #bfbc85;
+      }
+    }
+  }
+  .objectives-list {
+    margin-top: 30px;
+  }
+  .objectives-info {
+    font-family: $text-font;
+    font-size: 1em;
+    font-weight: 700;
+    color: #000;
+    letter-spacing: 2px;
+    line-height: 24px;
+    list-style-type: disc;
+  }
+  
+}
+@media screen and(max-width: 360px) {
   .objectives-title {
     text-align: center;
     width: 90%;
@@ -125,71 +191,6 @@
     line-height: 24px;
     list-style-type: disc;
     margin-left: 15px;
-  }
-  
-}
-@media screen and(max-width: 375px) {
-  .objectives-title {
-    text-align: center;
-    width: 80%;
-    height: 50px;
-    margin-top: 50px;
-    margin-left: 40px;
-  
-    color: #bfbc85;
-    background-color: #939297;
-    border: 3px solid #000;
-    box-shadow: 5px 5px #467bb1;
-  
-    font-size: 2em;
-    font-family: $text-header-two;
-    font-weight: 700;
-    text-decoration: none;
-    transition: 2s all ease;
-  
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-transform: uppercase;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .objectives {
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    margin: 10px;
-    display: inline-block;
-    width: 320px;
-    padding: 5px;
-  
-    .upcoming-objectives {
-      height: 430px;
-      background-color: #939297;
-      border: 3px solid #000;
-      box-shadow: 5px 5px #467bb1;
-      width: 335px;
-  
-      .objectives-title_second {
-        font-family: $text-header;
-        font-weight: 700;
-        font-size: 2em;
-        text-align: center;
-        color: #bfbc85;
-      }
-    }
-  }
-  .objectives-list {
-    margin-top: 30px;
-  }
-  .objectives-info {
-    font-family: $text-font;
-    font-size: 1em;
-    font-weight: 700;
-    color: #000;
-    letter-spacing: 2px;
-    line-height: 24px;
-    list-style-type: disc;
   }
   
 }
