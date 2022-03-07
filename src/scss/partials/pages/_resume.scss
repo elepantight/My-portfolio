@@ -97,7 +97,8 @@
     padding: 5px;
   
     .upcoming-objectives {
-      height: 430px;
+      margin-left: -15px;
+      height: 520px;
       background-color: #939297;
       border: 3px solid #000;
       box-shadow: 5px 5px #467bb1;
@@ -121,8 +122,11 @@
     font-weight: 700;
     color: #000;
     letter-spacing: 2px;
-    line-height: 24px;
+    line-height: 28px;
     list-style-type: disc;
+    margin-left: 20px;
+    text-align: left;
+
   }
   
 }
@@ -159,12 +163,12 @@
     padding: 5px;
   
     .upcoming-objectives {
-      height: 350px;
+      height: 460px;
       background-color: #939297;
       border: 3px solid #000;
       box-shadow: 5px 5px #467bb1;
-      width: 400px;
-      margin-left: - 15px;
+      width: 324px;
+      margin-left: - 12px;
   
       .objectives-title_second {
         font-family: $text-header;
@@ -190,7 +194,7 @@
     letter-spacing: 2px;
     line-height: 24px;
     list-style-type: disc;
-    margin-left: 15px;
+    margin-left: 20px;
   }
   
 }
