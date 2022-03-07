@@ -9,21 +9,23 @@ export default class Portfolio extends Component {
 
           <div className="objectives">
             <div className="upcoming-objectives">
-              <h4 className="objectives-title_second">Dig deeper into web3</h4>
+              <h4 className="objectives-title_second">
+                Dig deeper into web3 and metaverse
+              </h4>
               <ul className="objectives-list">
-                <li className="objectives-info">
-                  Create and deploy my first smart contract.{" "}
+                <li className="objectives-info info-1">
+                  Create / deploy ERC20 token &amp; ERC721 smart contract. How
+                  to spot the red flags early &amp; when an NFT collection has
+                  potensial.
                 </li>
-                <li className="objectives-info">
-                  Create and deploy ERC20 token and ERC721 smart contract.
+                <li className="objectives-info info-2">
+                  Learn the skills, software &amp; knowledge needed to launch
+                  &amp; NFT collection.
                 </li>
-                <li className="objectives-info">
-                  Learn the skills, software and knowledge needed to launch and
-                  NFT collection.
-                </li>
-                <li className="objectives-info">
-                  Analzye successful NFT marketing strategies. How to spot the
-                  red flags early and and when an NFT collection has potensial.
+
+                <li className="objectives-info info-3">
+                  Read in depth about Generative Design &amp; become a champ at
+                  it using p5.js
                 </li>
               </ul>
             </div>
@@ -31,20 +33,20 @@ export default class Portfolio extends Component {
           <div className="objectives">
             <div className="upcoming-objectives">
               <h4 className="objectives-title_second">
-                Improve my knowledge in React
+                Improve react knowledge
               </h4>
               <ul className="objectives-list">
-                <li className="objectives-info">Practice coding challanges and structure</li>
-                <li className="objectives-info">
-                  Improve my logical thinking and practice algorithms. <br></br>Not just
-                  practice by coding but also by reading articles.
+                <li className="objectives-info info-1">
+                  Practice coding challanges &amp; structure. Not just practice
+                  by coding but also by reading articles.
                 </li>
-                <li className="objectives-info">
-                  Find topics I'm already working on and expand my skills in
-                  that area.
+                <li className="objectives-info info-2">
+                  Improve logical thinking &amp; practice algorithms. Topics I'm
+                  already working on &amp; expand my skills in that area.
+                  <br></br>
                 </li>
-                <li className="objectives-info">
-                  Find projects to build for a friend whatever to boost
+                <li className="objectives-info info-3">
+                  Find projects to build for a friend or whatever to boost
                   motivation. Continue to update portfolio continuously.
                 </li>
               </ul>
@@ -56,19 +58,20 @@ export default class Portfolio extends Component {
                 Become a better UI designer
               </h4>
               <ul className="objectives-list">
-                <li className="objectives-info">Create UI Kits </li>
-                
-                <li className="objectives-info">
-                  Study designers who inspires me, study who they get their inspiration from.
-                </li>
-                <li className="objectives-info">
-                Work more in Illustrator or similar programs
-                Improve my CSS skills by not using css-frameworks
-                </li>
-                <li className="objectives-info">
-                Pay more attention to the details. <br></br> Users notice details and can easily make a huge difference to the user experience.
+                <li className="objectives-info info-1">
+                  Create UI Kits. Work more in Illustrator or similar programs
+                  Improve my CSS skills by not using css-frameworks
                 </li>
 
+                <li className="objectives-info info-2">
+                  Study designers who inspires me, study who they get their
+                  inspiration from. Pay more attention to the details
+                </li>
+                <li className="objectives-info info-3">
+                  {" "}
+                  Users notice details and can easily make a huge difference to
+                  the user experience.
+                </li>
               </ul>
             </div>
           </div>
@@ -78,18 +81,18 @@ export default class Portfolio extends Component {
                 Become a better UX designer
               </h4>
               <ul className="objectives-list">
-                <li className="objectives-info">Improve my design thinking. </li>
-                <li className="objectives-info">
-                  Do creative brainstorming the right way. 
+                <li className="objectives-info info-1">
+                  Improve my understanding of the problem extensively through
+                  prototyping and testing
                 </li>
-                <li className="objectives-info">
-                Improve my understanding of the problem &gt; <br></br>explore a wide range of possible solutions 
-                &gt; iterate extensively through prototyping and testing &gt; implement through the customary deployment mechanisms. 
+                <li className="objectives-info info-2">
+                  Improve my design thinking. Do creative brainstorming the
+                  right way.
                 </li>
-                <li className="objectives-info">
-                 Do more prototypes, wireframing and deeper research.dsfsdfsdf
+                <li className="objectives-info info-3">
+                  Do more prototypes, wireframing and deeper research.
                 </li>
-
+                <li className="objectives-info"></li>
               </ul>
             </div>
           </div>
