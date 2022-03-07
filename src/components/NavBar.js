@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { FiMenu, FiX } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
+import IF_4909 from './../images/IF_4909.png'
 
 const Navigation = () => {
 	const [open, setOpen] = useState(false);
@@ -15,8 +16,6 @@ const Navigation = () => {
 
 	return (
 		<nav className="navbar">
-			<Link to="/" className="nav-logo">
-					</Link>
 			<div onClick={handleClick} className="nav-icon">
 				{open ? <FiX /> : <FiMenu />}
 			</div>
@@ -29,7 +28,7 @@ const Navigation = () => {
 				</li>
 				<li className="nav-item">
 					<Link to="/resume" className="nav-link" onClick={closeMenu}>
-						RESUME
+						OBJECTIVES
 					</Link>
 				</li>
 				<li className="nav-item">

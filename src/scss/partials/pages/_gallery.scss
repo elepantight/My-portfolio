@@ -1,5 +1,5 @@
 .img-column {
-  margin-left: 4.5%;
+  margin-left: 4%;
 
   margin-top: 50px;
 
@@ -38,12 +38,12 @@
     position: relative;
     justify-content: center;
     align-items: center;
-  
-  .images {
-    width: 550px;
-    margin-left: 10px;
+
+    .images {
+      width: 550px;
+      margin-left: 10px;
+    }
   }
-}
 }
 
 @media screen and(max-width: 444px) {
@@ -52,10 +52,10 @@
     position: relative;
     justify-content: center;
     align-items: center;
-  .images {
-    width: 400px;
+    .images {
+      width: 400px;
+    }
   }
-}
 }
 @media screen and(max-width: 375px) {
   .img-card {
@@ -63,8 +63,8 @@
     position: relative;
     justify-content: center;
     align-items: center;
-  .images {
-    width: 340px;
+    .images {
+      width: 340px;
+    }
   }
-}
 }

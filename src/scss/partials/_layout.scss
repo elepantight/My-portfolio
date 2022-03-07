@@ -52,7 +52,10 @@ body {
   text-align: center;
 }
 .logo-img{
-  max-width: 200px;
+  position: relative;
+  left: -120px;
+  max-width: 70px;
+  border-radius: 50%;
 }
 @-webkit-keyframes fadeIn {
   from {
