@@ -37,8 +37,8 @@ export default class Portfolio extends Component {
               </h4>
               <ul className="objectives-list">
                 <li className="objectives-info info-1">
-                  Practice coding challanges &amp; structure. Not just practice
-                  by coding but also by reading articles.
+                  Find projects to build for a friend or whatever to boost
+                  motivation. Continue to update portfolio continuously.
                 </li>
                 <li className="objectives-info info-2">
                   Improve logical thinking &amp; practice algorithms. Topics I'm
@@ -46,8 +46,8 @@ export default class Portfolio extends Component {
                   <br></br>
                 </li>
                 <li className="objectives-info info-3">
-                  Find projects to build for a friend or whatever to boost
-                  motivation. Continue to update portfolio continuously.
+                  Practice coding challanges &amp; structure. Not just practice
+                  by coding but also by reading articles.
                 </li>
               </ul>
             </div>
@@ -59,18 +59,17 @@ export default class Portfolio extends Component {
               </h4>
               <ul className="objectives-list">
                 <li className="objectives-info info-1">
-                  Create UI Kits. Work more in Illustrator or similar programs
-                  Improve my CSS skills by not using css-frameworks
+                  Create UI Kits. Work more in Illustrator or similar programs.
+                  Improve my CSS skills by not using css-frameworks.
                 </li>
 
                 <li className="objectives-info info-2">
-                  Study designers who inspires me, study who they get their
-                  inspiration from. Pay more attention to the details
+                  Users notice details and can easily make a huge difference to
+                  the user experience. Pay more attention to the details.
                 </li>
                 <li className="objectives-info info-3">
-                  {" "}
-                  Users notice details and can easily make a huge difference to
-                  the user experience.
+                  Study designers who inspires me, study who they get their
+                  inspiration from.
                 </li>
               </ul>
             </div>

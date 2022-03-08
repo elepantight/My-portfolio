@@ -60,7 +60,6 @@ useEffect(() => {
       <div className="vertical-block_1"></div>
       <div className="vertical-block_2"></div>
       {/*  //////////////////  */}
-      <div>
         <div className="container-card">
          
           {/* Card 1 */}
@@ -207,7 +206,6 @@ useEffect(() => {
             </div>
           </div>
         </div>
-      </div>
 
       {/* MOBILE */}
 

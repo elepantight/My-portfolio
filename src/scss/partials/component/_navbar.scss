@@ -1,20 +1,24 @@
 .navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   opacity: 0;
   height: 80px;
   width: 90%;
   margin-top: 30px;
   margin-left: 5%;
-  background: #939297;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   padding: 0 2rem;
-  font-size: 2.2rem;
+
+  box-shadow: 5px 5px #86858b;
   border: 2px solid #86858b;
-  font-family: $button;
+  background: #939297;
+
+  
+  font-size: 2.2rem;
+  font-family: $main;
   font-weight: 700;
   text-transform: uppercase;
-  box-shadow: 5px 5px #86858b;
 
   -webkit-animation: fadeIn ease-in 1;
   -moz-animation: fadeIn ease-in 1;
@@ -48,12 +52,15 @@
 .nav-link {
   text-decoration: none;
   color: #86858b;
+  text-shadow: 4px 3px 0 #7A7A7A;
   transition: 1s all;
   padding: 5px;
 }
 
 .nav-link:hover {
-border-bottom: 2px solid #bfbc85;
+/*  text-shadow: 0 1px 0px #000, 1px 0 0px #5dabcd, 1px 2px 1px #378ab4, 2px 1px 1px #5dabcd, 2px 3px 2px #378ab4, 3px 2px 2px #5dabcd, 3px 4px 2px #378ab4, 4px 3px 3px #5dabcd, 4px 5px 3px #378ab4, 5px 4px 2px #5dabcd, 5px 6px 2px #378ab4, 6px 5px 2px #5dabcd, 6px 7px 1px #378ab4, 7px 6px 1px #5dabcd, 7px 8px 0px #378ab4, 8px 7px 0px #5dabcd;
+*/
+ border-bottom: 2px solid #bfbc85;
 border-top: 2px solid #bfbc85;
 color: #34517b;
 
@@ -112,6 +119,7 @@ color: #34517b;
     display: flex;
   }
   .nav-link:hover {
-    border-bottom: 2px solid black;
+    text-shadow: 0 1px 0px #000, 1px 0 0px #5dabcd, 1px 2px 1px #378ab4, 2px 1px 1px #5dabcd, 2px 3px 2px #378ab4, 3px 2px 2px #5dabcd, 3px 4px 2px #378ab4, 4px 3px 3px #5dabcd, 4px 5px 3px #378ab4, 5px 4px 2px #5dabcd, 5px 6px 2px #378ab4, 6px 5px 2px #5dabcd, 6px 7px 1px #378ab4, 7px 6px 1px #5dabcd, 7px 8px 0px #378ab4, 8px 7px 0px #5dabcd;
+
   }
 }

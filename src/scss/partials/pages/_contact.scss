@@ -3,7 +3,7 @@
   top: 210px;
   left: 180px;
   height: 400px;
-  width: 300px;
+  width: 340px;
   /*
   -webkit-animation: SocialMedia ease-in-out 1;
   -moz-animation: SocialMedia ease-in-out 1;
@@ -46,8 +46,9 @@
     cursor: pointer;
 
     font-size: 1.5em;
-    font-family: $text-header-two;
+    font-family: $main;
     font-weight: 700;
+  text-shadow: 2px 2px 0 #000, 4px 4px 0 #467bb1;
     text-decoration: none;
     transition: 2s all ease;
 
@@ -89,6 +90,7 @@
   -moz-transition: 1s all;
   -o-transition: 1s all;
   -ms-transition: 1s all;
+  text-shadow: 0 1px 0px #000, 1px 0 0px #5dabcd, 1px 2px 1px #378ab4, 2px 1px 1px #5dabcd, 2px 3px 2px #378ab4, 3px 2px 2px #5dabcd, 3px 4px 2px #378ab4, 4px 3px 3px #5dabcd, 4px 5px 3px #378ab4, 5px 4px 2px #5dabcd, 5px 6px 2px #378ab4, 6px 5px 2px #5dabcd, 6px 7px 1px #378ab4, 7px 6px 1px #5dabcd, 7px 8px 0px #378ab4, 8px 7px 0px #5dabcd;
 }
 
 .contact-form {
@@ -97,7 +99,7 @@
   height: 500px;
   width: 600px;
   background-color: #939297;
-  font-family: $text-font;
+  font-family: $main;
   font-size: 2em;
   margin-top: 10vh;
 
@@ -265,8 +267,10 @@ button.contact-button {
   box-shadow: 5px 5px #467bb1;
 
   font-size: 2em;
-  font-family: $text-header-two;
+  font-family: $main;
   font-weight: 700;
+  text-shadow: 2px 2px 0 #000, 4px 4px 0 #467bb1;
+
 
   transition: 1s all ease;
 }
@@ -280,6 +284,8 @@ button.contact-button {
   -webkit-transition: 1s all;
   -moz-transition: 1s all;
   -o-transition: 1s all;
+  text-shadow: 0 1px 0px #378ab4, 1px 0 0px #5dabcd, 1px 2px 1px #378ab4, 2px 1px 1px #5dabcd, 2px 3px 2px #378ab4, 3px 2px 2px #5dabcd, 3px 4px 2px #378ab4, 4px 3px 3px #5dabcd, 4px 5px 3px #378ab4, 5px 4px 2px #5dabcd, 5px 6px 2px #378ab4, 6px 5px 2px #5dabcd, 6px 7px 1px #378ab4, 7px 6px 1px #5dabcd, 7px 8px 0px #378ab4, 8px 7px 0px #5dabcd;
+
 }
 
 
@@ -327,7 +333,7 @@ button.contact-button {
     box-shadow: 5px 5px #467bb1;
 
     font-size: 1em;
-    font-family: $text-header-two;
+    font-family: $main;
     font-weight: 700;
   }
 }
@@ -347,7 +353,7 @@ button.contact-button {
     box-shadow: 5px 5px #467bb1;
 
     font-size: 1em;
-    font-family: $text-header-two;
+    font-family: $main;
     font-weight: 700;
   }
 }

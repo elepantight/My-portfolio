@@ -3,7 +3,8 @@
   width: 35%;
   height: 50px;
   margin-top: 50px;
-  margin-left: 150px;
+  margin-bottom: 25px;
+  margin-left: 140px;
 
   color: #bfbc85;
   background-color: #939297;
@@ -11,9 +12,12 @@
   box-shadow: 5px 5px #467bb1;
 
   font-size: 2em;
-  font-family: $text-header-two;
+  font-family: $main;
   font-weight: 700;
   text-decoration: none;
+
+  text-shadow: 2px 2px 0 #000, 4px 4px 0 #467bb1;
+
   transition: 2s all ease;
 
   display: flex;
@@ -23,7 +27,7 @@
 }
 .objectives {
   position: relative;
-  left: 5%;
+  left: 4%;
   margin: 10px;
   display: inline-block;
   width: 600px;
@@ -37,11 +41,13 @@
     box-shadow: 5px 5px #467bb1;
 
     .objectives-title_second {
-      font-family: $button;
+      font-family: $main;
       font-weight: 800;
       font-size: 2em;
+
       text-align: left;
       text-transform: uppercase;
+      text-shadow: 2px 2px 0 #000, 4px 4px 0 #467bb1;
       
 
       color: #bfbc85;
@@ -58,9 +64,10 @@
 }
 .objectives-info {
   text-align: center;
-  font-family: $text-font;
+  font-family: $main;
   font-size: 1em;
   font-weight: 500;
+  font-style: italic;
   color: #000;
   letter-spacing: 2px;
   line-height: 24px;
@@ -74,6 +81,7 @@
   left: 45px;
   text-align: left;
   letter-spacing: 1px;
+  
 }
 .info-2 {
   position: absolute;
@@ -106,7 +114,7 @@
     box-shadow: 5px 5px #467bb1;
 
     font-size: 2em;
-    font-family: $text-header-two;
+    font-family: $main;
     font-weight: 700;
     text-decoration: none;
     transition: 2s all ease;
@@ -136,7 +144,7 @@
       width: 335px;
 
       .objectives-title_second {
-        font-family: $text-header;
+        font-family: $main;
         font-weight: 700;
         font-size: 2em;
         text-align: center;
@@ -148,7 +156,7 @@
     margin-top: 30px;
   }
   .objectives-info {
-    font-family: $text-font;
+    font-family: $main;
     font-size: 1em;
     font-weight: 700;
     color: #000;
@@ -173,7 +181,7 @@
     box-shadow: 5px 5px #467bb1;
 
     font-size: 2em;
-    font-family: $text-header-two;
+    font-family: $main;
     font-weight: 700;
     text-decoration: none;
     transition: 2s all ease;
@@ -200,7 +208,7 @@
       margin-left: -12px;
 
       .objectives-title_second {
-        font-family: $text-header;
+        font-family: $main;
         font-weight: 700;
         font-size: 2em;
         text-align: center;
@@ -215,7 +223,7 @@
   }
   .objectives-info {
     text-align: left;
-    font-family: $text-font;
+    font-family: $main;
     font-size: 1em;
     font-weight: 700;
     color: #000;

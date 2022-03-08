@@ -3,10 +3,10 @@
 .horizontal {
   position: absolute;
   top: 33.6em;
-  left: 33%;
+  left: 28%;
   background-color: #316451;
   height: 1%;
-  width: 550px;
+  width: 700px;
   border-radius: 30px;
   animation-delay: 6s;
   animation: horizontalLine 3s ease-in forwards;
@@ -62,7 +62,7 @@
 
   .row_header {
     margin-top: 1050px;
-    width: 600px;
+    width: 700px;
     position: relative;
     display: flex;
     justify-content: center;
@@ -127,7 +127,7 @@
       display: flex;
       align-items: center;
       height: 30px;
-      margin-top: 30px;
+      margin-top: 20px;
 
       .block {
         width: 0%;
@@ -427,7 +427,7 @@
     background-image: linear-gradient(
       to right,
       #467bb1 0%,
-      #34517b 51%,
+      #467bb1 51%,
       #467bb1 100%
     );
     border: 0px solid #bc5453;
@@ -440,7 +440,7 @@
     background-image: linear-gradient(
       to right,
       #467bb1 0%,
-      #34517b 51%,
+      #467bb1 51%,
       #467bb1 100%
     );
     opacity: 1;
@@ -463,9 +463,9 @@
     height: 7px;
     background-image: linear-gradient(
       to right,
-      #467bb1 0%,
-      #34517b 51%,
-      #467bb1 100%
+      #bfbc85 0%,
+      #bfbc85 51%,
+      #bfbc85  100%
     );
     border: 0px solid #bc5453;
     bottom: 13px;
