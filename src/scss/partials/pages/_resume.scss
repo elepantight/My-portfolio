@@ -27,7 +27,7 @@
 }
 .objectives {
   position: relative;
-  left: 4%;
+  left: 2%;
   margin: 10px;
   display: inline-block;
   width: 600px;
@@ -58,6 +58,19 @@
       width: 420px;
     }
   }
+}
+@media only screen and (min-width: 1824px) {
+  .objectives-title{
+position: relative;
+left: 25%;
+
+} 
+  .objectives{
+    position: relative;
+    left: 200px;
+    width: 700px;
+  } 
+
 }
 .objectives-list {
   margin-top: 30px;

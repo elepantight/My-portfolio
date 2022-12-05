@@ -6,12 +6,12 @@ import ARROW from './../images/arrow-up.png';
 
 const useStyles = makeStyles((theme) => ({
     toTop: {
-        width: 40,
+        width: 30,
         zIndex: 2,
         position: 'fixed',
         bottom: '2vh',
         color: '#C3CDD7',
-        right: '5%',
+        right: '2%',
         cursor: 'pointer',
     }
 }))

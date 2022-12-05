@@ -13,9 +13,6 @@ import Gallery from './pages/Gallery';
 import Contact from './pages/Contact';
 
 
-// import Footer from './component/footer';
-
-
 
 
 ReactDOM.render(
@@ -28,9 +25,8 @@ ReactDOM.render(
         <Route path='/resume' component={Resume} />
         <Route path='/gallery' component={Gallery} />
         <Route path='/contact' component={Contact} />
-        </Switch>
-         {/*<Footer /> */}
-      </App>
+        </Switch> 
+              </App>
     </Router>,
     
   

@@ -16,6 +16,10 @@ const Navigation = () => {
 
 	return (
 		<nav className="navbar">
+			<div className='square_1'></div>
+			<div className='square_2'></div>
+			<div className='square_3'></div>
+			<div className='square_4'></div>
 			<div onClick={handleClick} className="nav-icon">
 				{open ? <FiX /> : <FiMenu />}
 			</div>

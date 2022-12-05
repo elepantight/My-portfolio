@@ -1,7 +1,9 @@
+
+
 .social-media {
   position: absolute;
   top: 210px;
-  left: 180px;
+  left: 850px;
   height: 400px;
   width: 340px;
   /*
@@ -59,10 +61,15 @@
   }
 }
 @media only screen and (min-width: 1824px) {
+  .social-media{
+    position: absolute;
+    top: 315px;
+  }  
   .social-media-links {
-    margin-top: 440px;
-    margin-left: 52%;
+    margin-top: 40%;
+    margin-left: 500px;
   }
+
 }
 @media screen and(max-width: 480px) {
   .social-media{
@@ -84,6 +91,7 @@
   background-color: #34517b;
   color: #7faa8f;
   border-radius: 30px;
+  border-color: #34517b;
 
   transition: 2s all ease;
   -webkit-transition: 1s all;
@@ -95,7 +103,7 @@
 
 .contact-form {
   display: block;
-  margin-left: 45%;
+  margin-left: 12%;
   height: 500px;
   width: 600px;
   background-color: #939297;
@@ -293,8 +301,8 @@ button.contact-button {
 @media only screen and (min-width: 1824px) {
   .contact-form {
     width: 900px;
-    margin-top: 100px;
-    margin-left: 42%;
+    margin-top: 180px;
+    margin-left: 15%;
   }
 }
 
