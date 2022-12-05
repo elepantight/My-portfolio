@@ -115,10 +115,10 @@
   position: absolute;
   top: 20em;
   left: 10%;
-  background-color: #34517b;
+  background-color: #939297;
+  border: 3px solid black;
   height: 155%;
   width: 90px;
-  border-radius: 30px;
   animation: verticalLineBlock_2 4s ease-in forwards;
 }
 
@@ -687,10 +687,10 @@
   text-align: left;
 
   padding: 15px 50px;
-  margin-top: -180px;
+  margin-top: -160px;
 
   margin-bottom: 30px;
-  margin-left: 28%;
+  margin-left: 25%;
 }
 .old-project-header {
   font-family: $text-font;
@@ -775,5 +775,24 @@
   }
   .old-project-container .footer-left p.footer-links {
     line-height: 1.8;
+  }
+}
+
+
+@media screen and(max-width: 480px) {
+  .old-project-container{
+    position: relative;
+    width: 300px;
+    top: 200px;
+    left: -40px;
+  }
+  .old-project-title {
+    margin-left: -70px;
+    text-align: center;
+
+
+  }
+  .old-project-links{
+    font-size: 16px;
   }
 }

@@ -335,8 +335,7 @@ useEffect(() => {
               className="old-project-links"
             >
               Homefair
-            </a>
-
+            </a>>
             <a
               href="https://xd.adobe.com/view/19dd4519-a494-4d90-a004-9f67c3d37e02-4c8e/?fullscreen&hints=off"
               target="_blank"
