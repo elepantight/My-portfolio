@@ -116,9 +116,10 @@
   top: 20em;
   left: 10%;
   background-color: #939297;
-  border: 3px solid black;
-  height: 155%;
-  width: 90px;
+  border-top: 3px solid gold;
+  clip-path: polygon(10% 25%, 35% 25%, 35% 0%, 65% 0%, 65% 25%, 90% 25%, 90% 50%, 65% 39%, 65% 100%, 35% 100%, 35% 39%, 10% 50%);
+  height: 40%;
+  width: 180px;
   animation: verticalLineBlock_2 4s ease-in forwards;
 }
 

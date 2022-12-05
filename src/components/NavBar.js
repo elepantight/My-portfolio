@@ -37,7 +37,7 @@ const Navigation = () => {
 				</li>
 				<li className="nav-item">
 					<Link to="/gallery" className="nav-link" onClick={closeMenu}>
-						ART
+						IMG
 					</Link>
 				</li>
         <li className="nav-item">
