@@ -115,6 +115,12 @@
   }
   
 }
+
+@media only screen and (max-width: 600px) {
+  .square_1, .square_2, .square_3, .square_4{
+    display: none;
+  }
+}
 .nav-logo {
   text-decoration: none;
   color: #86858b;

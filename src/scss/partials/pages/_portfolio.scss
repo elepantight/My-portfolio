@@ -548,6 +548,11 @@
   }
 }
 
+@media only screen and (max-width: 600px) {
+  .container-card {
+    display: none;
+  }
+}
 /// MObile test
 
 .border-mobile {
@@ -628,7 +633,7 @@
     box-shadow: 5px 5px #467bb1;
     border-radius: 5px;
     .img-card_mobile {
-      width: 400px;
+      width: 360px;
     }
   }
   .mobile-links {
@@ -636,7 +641,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 410px;
+    width: 370px;
   }
 }
 
