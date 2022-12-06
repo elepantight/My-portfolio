@@ -26,7 +26,9 @@ export default function ContactUs() {
   }
 
   const [emailError, setEmailError] = useState("");
+  
   const validateEmail = (e) => {
+
     var email = e.target.value;
 
     if (validator.isEmail(email)) {
@@ -34,7 +36,9 @@ export default function ContactUs() {
     } else {
       setEmailError("Enter valid Email!");
     }
+  
   };
+  
 
   return (
     <>
@@ -108,7 +112,12 @@ export default function ContactUs() {
               <label htmlFor=""></label>
               <span></span>
             </div>
-            <button className="contact-button">SEND EMAIL</button>
+            <input
+              className="contact-button"
+              type="submit" 
+              value="Send">
+
+              </input>
           </form>
         </div>
       </section>
