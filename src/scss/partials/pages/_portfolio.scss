@@ -114,12 +114,12 @@
 .vertical-block_2 {
   position: absolute;
   top: 20em;
-  left: 10%;
+  left: 5%;
   background-color: #939297;
   border-top: 3px solid gold;
   clip-path: polygon(10% 25%, 35% 25%, 35% 0%, 65% 0%, 65% 25%, 90% 25%, 90% 50%, 65% 39%, 65% 100%, 35% 100%, 35% 39%, 10% 50%);
-  height: 40%;
-  width: 180px;
+  height: 55%;
+  width: 240px;
   animation: verticalLineBlock_2 4s ease-in forwards;
 }
 
@@ -147,7 +147,9 @@
   }
 }
 
-
+.container-card{
+  margin-top: 130px;
+}
 
 
 .blog-card {

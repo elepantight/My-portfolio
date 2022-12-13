@@ -15,6 +15,7 @@ import BERGENLODGE from "./../images/bergenlodge.jpg";
 import TRA from "./../images/Tra.PNG";
 import VIVA from "./../images/viva.jpg";
 import METANOIA from "./../images/metanoia.PNG";
+import DARK from './../images/darmode.PNG'
 
 function Portfolio() {
   /*  let logoItem = useRef(null);
@@ -66,12 +67,12 @@ useEffect(() => {
           <div className="card-div">
             <div className="blog-card alt">
               <div className="meta">
-                <img className="img-slide" src={METANOIA} />
+                <img className="img-slide" src={DARK} />
                 <ul className="details">
                   <li className="text">
                     <p className="number">3</p>
                     <a
-                      href="https://github.com/elepantight/coming-soon"
+                      href="https://github.com/elepantight/login-light-dark-theme"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="link"
@@ -81,7 +82,7 @@ useEffect(() => {
                   </li>
                   <p className="number">4</p>
                   <a
-                    href="https://metanoi4.netlify.app/"
+                    href="https://d4rkl1ght.netlify.app//"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="link"
@@ -91,11 +92,10 @@ useEffect(() => {
                 </ul>
               </div>
               <div className="description">
-                <h1>Coming Soon page Metanoia</h1>
+                <h1>Log in</h1>
                 <h2>React.js</h2>
                 <p className="description-info">
-                  Sign-up page for a clothing brand. Page not finished. looks
-                  decent but buggy. Mobile is fucked up
+                  Log in page with dark mode function. 
                 </p>
               </div>
             </div>
