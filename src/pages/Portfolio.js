@@ -15,7 +15,8 @@ import BERGENLODGE from "./../images/bergenlodge.jpg";
 import TRA from "./../images/Tra.PNG";
 import VIVA from "./../images/viva.jpg";
 import METANOIA from "./../images/metanoia.PNG";
-import DARK from './../images/darmode.PNG'
+import DARK from './../images/darmode.PNG';
+import DARK2 from './../images/darkmode.PNG'
 
 function Portfolio() {
   /*  let logoItem = useRef(null);
@@ -211,6 +212,37 @@ useEffect(() => {
       {/* MOBILE */}
 
       <div className="border-mobile">
+      <div className="container-mobile">
+          <div className="card-mobile">
+            <img className="img-card_mobile" src={DARK2} alt="img" />
+            <h2 className="mobile-text">React.js</h2>
+            <p className="mobile-info">
+              Simple login swich between dark and light mode
+            </p>
+            <ul className="mobile-list">
+              <li className="mobile-links">
+                <a
+                  href="https://github.com/elepantight/login-light-dark-theme"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mobile-link"
+                >
+                  Github
+                </a>
+              </li>
+              <li className="mobile-links">
+                <a
+                  href="https://d4rkl1ght.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mobile-link"
+                >
+                  Live
+                </a>
+              </li>
+            </ul>
+          </div>
+          </div>
         <div className="container-mobile">
           <div className="card-mobile">
             <img className="img-card_mobile" src={GOT} alt="img" />
