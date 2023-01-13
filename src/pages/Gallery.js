@@ -1,53 +1,21 @@
 import React, {Component} from "react";
 import Scroll from "./../components/scroll";
 
-// import RUBIKGUN from "./../images/rubiksgun.svg";
-import RUBIK from "./../images/rubikskub.svg";
 import SAMURAJ from "./../images/samuraj.svg";
-import GUNFROG from "./../images/GUNFROG.svg";
-import BLACKWHITE from "./../images/blacKnWhite.svg";
-import DUDES from "./../images/dudes.svg";
-import TWOD from "./../images/2d.svg";
-import MUMIN from "./../images/mumin.svg";
-import DRAGONFLY from "./../images/dragonfly.svg";
 import GUZZ from "./../images/guzz.svg";
-import FTP from "./../images/ftp.svg";
-import TRIKK from "./../images/trikk.svg";
-import GUNMAN from './../images/gunman.svg'
-import BEACH from './../images/vivaBeach1.1.png'
-import DARTH from './../images/2dx3.svg'
-import ETH from './../images/ethereum.svg';
 import CANVAS from './../images/canvas.png';
-import CANVAS_0 from './../images/canvas_0.png';
-import CANVAS_1 from './../images/canvas_1.png';
 import CANVAS_2 from './../images/canvas_2.png';
-import CANVAS_3 from './../images/canvas_3.png';
-import CANVAS_4 from './../images/canvas_4.png';
 import CANVAS_5 from './../images/canvas_5.png';
 import CANVAS_6 from './../images/canvas_6.png';
 import CANVAS_7 from './../images/canvas_7.png';
-import CANVAS_8 from './../images/canvas_8.png';
-import CANVAS_9 from './../images/canvas_9.png';
-import CANVAS_10 from './../images/canvas_10.png';
-import CANVAS_11 from './../images/canvas_11.png';
-import CANVAS_12 from './../images/canvas_12.png';
 import CANVAS_13 from './../images/canvas_13.png';
 import CANVAS_14 from './../images/canvas_14.png';
 import CANVAS_15 from './../images/canvas_15.png';
-import CANVAS_16 from './../images/canvas_16.png';
 import CANVAS_17 from './../images/canvas_17.png';
-import CANVAS_18 from './../images/canvas_18.png';
 import CANVAS_19 from './../images/canvas_19.png';
 import CANVAS_20 from './../images/canvas_20.png';
-import CANVAS_21 from './../images/canvas_21.png';
-import CANVAS_22 from './../images/canvas_22.png';
-import CANVAS_23 from './../images/canvas_23.png';
-import CANVAS_24 from './../images/canvas_24.png';
 import CANVAS_25 from './../images/canvas_25.png';
 import CANVAS_26 from './../images/canvas_26.png';
-import CANVAS_27 from './../images/canvas_27.png';
-import CANVAS_28 from './../images/canvas_28.png';
-import CANVAS_29 from './../images/canvas_29.png';
 import CANVAS_30 from './../images/canvas_30.png';
 import CANVAS_37 from './../images/canvas_37.png';
 import CANVAS_38 from './../images/canvas_38.png';
@@ -60,6 +28,46 @@ import CACTUS from './../images/cactus.svg'
 import NFT_BODY from './../images/NFT_body.svg'
 import HATT from './../images/hattifnattarna.svg'
 import SAMURAI from './../images/samuraj_0.svg'
+/* import RUBIKGUN from "./../images/rubiksgun.svg";
+import RUBIK from "./../images/rubikskub.svg";
+import GUNFROG from "./../images/GUNFROG.svg";
+import BLACKWHITE from "./../images/blacKnWhite.svg";
+import DUDES from "./../images/dudes.svg";
+import TWOD from "./../images/2d.svg";
+import MUMIN from "./../images/mumin.svg";
+import DRAGONFLY from "./../images/dragonfly.svg";
+import FTP from "./../images/ftp.svg";
+import TRIKK from "./../images/trikk.svg";
+import GUNMAN from './../images/gunman.svg'
+import BEACH from './../images/vivaBeach1.1.png'
+import DARTH from './../images/2dx3.svg'
+import ETH from './../images/ethereum.svg';
+
+import CANVAS_0 from './../images/canvas_0.png';
+import CANVAS_1 from './../images/canvas_1.png';
+
+import CANVAS_3 from './../images/canvas_3.png';
+import CANVAS_4 from './../images/canvas_4.png';
+
+import CANVAS_8 from './../images/canvas_8.png';
+import CANVAS_9 from './../images/canvas_9.png';
+import CANVAS_10 from './../images/canvas_10.png';
+import CANVAS_11 from './../images/canvas_11.png';
+import CANVAS_12 from './../images/canvas_12.png';
+
+import CANVAS_16 from './../images/canvas_16.png';
+
+import CANVAS_18 from './../images/canvas_18.png';
+
+import CANVAS_21 from './../images/canvas_21.png';
+import CANVAS_22 from './../images/canvas_22.png';
+import CANVAS_23 from './../images/canvas_23.png';
+import CANVAS_24 from './../images/canvas_24.png';
+
+import CANVAS_27 from './../images/canvas_27.png';
+import CANVAS_28 from './../images/canvas_28.png';
+import CANVAS_29 from './../images/canvas_29.png';  */
+
 
 export default class Portfolio extends Component {
   render() {

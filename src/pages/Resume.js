@@ -5,7 +5,7 @@ export default class Portfolio extends Component {
     return (
       <>
         <div className="upcoming-objectives_container">
-          <h1 className="objectives-title">Objectives for 2022 </h1>
+          <h1 className="objectives-title">Objectives for 2023 </h1>
 
           <div className="objectives">
             <div className="upcoming-objectives">

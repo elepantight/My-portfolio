@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { FiMenu, FiX } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
-import IF_4909 from './../images/IF_4909.png'
 
 const Navigation = () => {
 	const [open, setOpen] = useState(false);

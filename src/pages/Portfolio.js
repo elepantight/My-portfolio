@@ -2,8 +2,13 @@ import React from "react";
 import Scroll from "./../components/scroll";
 
 import GOT from "./../images/GOT-start.jpg";
-import HOMEFAIR from "./../images/homefair.jpg";
 import BESSEGGEN from "./../images/beseggen.jpg";
+import METANOIA from "./../images/metanoia.PNG";
+import DARK from './../images/darmode.PNG';
+import DARK2 from './../images/darkmode.PNG'
+import TRA from "./../images/Tra.PNG";
+
+/* import HOMEFAIR from "./../images/homefair.jpg"; 
 import SPORTIF from "./../images/sportif.jpg";
 import RICKMORTY from "./../images/rick.jpg";
 import GAME from "./../images/game.jpg";
@@ -12,11 +17,8 @@ import SPORTIF2 from "./../images/sportif2.jpg";
 import BESSEGGEN2 from "./../images/bestype.jpg";
 import PORTFOLIO from "./../images/portfolio.jpg";
 import BERGENLODGE from "./../images/bergenlodge.jpg";
-import TRA from "./../images/Tra.PNG";
-import VIVA from "./../images/viva.jpg";
-import METANOIA from "./../images/metanoia.PNG";
-import DARK from './../images/darmode.PNG';
-import DARK2 from './../images/darkmode.PNG'
+import VIVA from "./../images/viva.jpg";   */
+
 
 function Portfolio() {
   /*  let logoItem = useRef(null);
@@ -68,7 +70,7 @@ useEffect(() => {
           <div className="card-div">
             <div className="blog-card alt">
               <div className="meta">
-                <img className="img-slide" src={DARK} />
+                <img className="img-slide" src={DARK} alt="dark"/>
                 <ul className="details">
                   <li className="text">
                     <p className="number">3</p>
@@ -377,7 +379,7 @@ useEffect(() => {
               Login App
             </a>
             <a
-              href="https://xd.adobe.com/view/32e488c4-5a4b-4ab6-a2ac-95335bb47227-67b7/?fullscreen/"
+              href="https://xd.adobe.com/view/040552ad-0307-4712-8c9d-3fc556e6c9d5-5156/"
               target="_blank"
               rel="noopener noreferrer"
               className="old-project-links"
